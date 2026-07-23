@@ -1,0 +1,39 @@
+{
+  "name": "gezginova",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "oxlint"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "@prisma/adapter-libsql": "^7.9.0",
+    "@prisma/client": "^7.9.0",
+    "@vnedyalk0v/react19-simple-maps": "^2.0.9",
+    "bcrypt": "^6.0.0",
+    "d3-geo": "^3.1.1",
+    "html-to-image": "^1.11.13",
+    "i18n-iso-countries": "^7.14.0",
+    "lucide-react": "^1.24.0",
+    "next": "^16.2.11",
+    "next-auth": "^4.24.15",
+    "prisma": "^7.9.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1",
+    "recharts": "^3.9.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "cheerio": "^1.2.0",
+    "oxlint": "^1.71.0",
+    "playwright": "^1.61.1",
+    "vite": "^8.1.1"
+  }
+}
