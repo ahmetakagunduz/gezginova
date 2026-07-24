@@ -1,0 +1,120 @@
+/* ============================================
+   StepVisa — Visa Preference Selection
+   ============================================ */
+
+.step-visa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
+}
+
+.step-visa .step-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.step-visa .step-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: -8px;
+}
+
+.visa-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  width: 100%;
+  max-width: 520px;
+}
+
+.visa-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--bg-secondary);
+  border: 2px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: left;
+  position: relative;
+  animation: fadeInUp 0.4s ease-out both;
+}
+
+.visa-option:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateX(4px);
+}
+
+.visa-option.selected {
+  border-color: var(--accent-teal);
+  background: rgba(0, 212, 170, 0.06);
+  box-shadow: 0 0 20px rgba(0, 212, 170, 0.15);
+}
+
+.visa-recommended {
+  position: absolute;
+  top: -10px;
+  right: 16px;
+  background: linear-gradient(135deg, var(--accent-teal), var(--accent-purple));
+  color: white;
+  padding: 3px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.visa-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.visa-option-text {
+  flex: 1;
+}
+
+.visa-option-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.visa-option-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Radio Indicator */
+.visa-radio {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-tertiary);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.visa-radio.checked {
+  border-color: var(--accent-teal);
+}
+
+.visa-radio-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent-teal);
+  animation: scaleIn 0.2s ease-out;
+}

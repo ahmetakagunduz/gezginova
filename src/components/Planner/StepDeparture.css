@@ -1,0 +1,201 @@
+/* ============================================
+   StepDeparture — Departure City Selection
+   ============================================ */
+
+.step-departure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
+}
+
+.step-departure-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--accent-teal), var(--accent-purple));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  animation: float 3s ease-in-out infinite;
+  box-shadow: var(--shadow-glow-teal);
+}
+
+.step-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.step-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: -8px;
+}
+
+/* Dropdown */
+.departure-dropdown {
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+}
+
+.departure-select {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--bg-secondary);
+  border: 2px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.departure-select:hover,
+.departure-select.open {
+  border-color: var(--accent-teal);
+  box-shadow: 0 0 0 4px rgba(0, 212, 170, 0.1);
+}
+
+.departure-select-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.departure-pin {
+  color: var(--accent-teal);
+}
+
+.departure-select-text {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+}
+
+.departure-city-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.departure-airport-code {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-teal);
+  background: rgba(0, 212, 170, 0.1);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.departure-chevron {
+  color: var(--text-secondary);
+  transition: transform var(--transition-fast);
+}
+
+.departure-chevron.rotated {
+  transform: rotate(180deg);
+}
+
+/* Options Dropdown */
+.departure-options {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  z-index: 50;
+  animation: fadeInDown 0.2s ease-out;
+  overflow: hidden;
+}
+
+.departure-search {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-muted);
+}
+
+.departure-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  padding: var(--space-xs);
+  outline: none;
+}
+
+.departure-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.departure-list {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.departure-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-align: left;
+  background: transparent;
+  border: none;
+}
+
+.departure-option:hover {
+  background: rgba(0, 212, 170, 0.08);
+}
+
+.departure-option.selected {
+  background: rgba(0, 212, 170, 0.12);
+}
+
+.departure-option-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.departure-option-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.departure-option-airport {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.departure-option-code {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--accent-teal);
+  background: rgba(0, 212, 170, 0.1);
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.departure-empty {
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

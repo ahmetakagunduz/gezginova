@@ -1,0 +1,228 @@
+/* ============================================
+   RouteCard — Individual Route Result Card
+   ============================================ */
+
+.route-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
+  transition: all var(--transition-base);
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.route-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--glass-border-hover);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Header */
+.route-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.route-card-rank {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent-teal);
+  min-width: 32px;
+}
+
+.route-card-country {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex: 1;
+}
+
+.route-card-flag {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.route-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.route-card-name {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Score Ring */
+.route-card-score {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.score-ring {
+  display: block;
+}
+
+.score-value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--accent-teal);
+}
+
+/* Tags */
+.route-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.route-tag {
+  padding: 3px 10px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Budget Status */
+.route-card-budget-status {
+  margin-bottom: var(--space-sm);
+}
+
+.budget-ok {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--visa-free);
+}
+
+.budget-over {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-amber);
+}
+
+/* Expand Toggle */
+.route-card-expand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-sm) 0;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  background: none;
+  border: none;
+  border-top: 1px solid var(--glass-border);
+}
+
+.route-card-expand:hover {
+  color: var(--accent-teal);
+}
+
+/* Cost Breakdown */
+.route-card-costs {
+  padding: var(--space-sm) 0;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.cost-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) 0;
+}
+
+.cost-icon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  display: flex;
+}
+
+.cost-label {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.cost-value {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.cost-divider {
+  height: 1px;
+  background: var(--glass-border);
+  margin: var(--space-xs) 0;
+}
+
+.cost-total {
+  padding-top: var(--space-sm);
+}
+
+.cost-total .cost-label {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.cost-total .cost-value {
+  font-size: 1.05rem;
+  color: var(--accent-teal);
+  font-weight: 800;
+}
+
+/* Actions */
+.route-card-actions {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--glass-border);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .route-card {
+    padding: var(--space-md);
+  }
+
+  .route-card-flag {
+    font-size: 1.8rem;
+  }
+
+  .route-card-name {
+    font-size: 1rem;
+  }
+}
+
+.route-card-flow {
+  background: var(--bg-primary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+  line-height: 1.5;
+}
+
+.route-card-flow strong {
+  color: var(--accent-teal);
+}
