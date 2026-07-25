@@ -1,0 +1,76 @@
+/* ============================================
+   PlannerPage — Page Wrapper
+   ============================================ */
+
+.planner-page {
+  min-height: calc(100vh - var(--header-height));
+  padding: var(--space-xl) 0 var(--space-3xl);
+}
+
+.planner-page-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  animation: fadeInDown 0.5s ease-out;
+}
+
+.planner-page-icon {
+  color: var(--accent-teal);
+  margin-bottom: var(--space-sm);
+}
+
+.planner-page-title {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.planner-page-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+/* Calculating */
+.planner-calculating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  gap: var(--space-md);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.calculating-spinner .spinner {
+  width: 48px;
+  height: 48px;
+  border-width: 4px;
+}
+
+.calculating-text {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.calculating-subtext {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Reset */
+.planner-reset {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+@media (max-width: 480px) {
+  .planner-page-title {
+    font-size: 1.7rem;
+  }
+}

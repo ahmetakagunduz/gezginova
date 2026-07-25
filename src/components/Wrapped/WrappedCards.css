@@ -1,0 +1,133 @@
+/* Wrapped Cards — Spotify Wrapped inspired designs */
+
+/* Card 1: Countries */
+.card-countries {
+  background: linear-gradient(135deg, #00d4aa, #8b5cf6);
+}
+.card-big-number {
+  font-family: var(--font-display);
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.card-big-number.secondary { font-size: 3.5rem; }
+.card-label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin-bottom: var(--space-sm);
+}
+.card-divider {
+  font-size: 2rem;
+  opacity: 0.5;
+  margin: var(--space-xs) 0;
+}
+.card-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: var(--space-md);
+}
+.card-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: var(--space-lg);
+}
+
+/* Card 2: Top Destination */
+.card-top-dest {
+  background: linear-gradient(135deg, #ef4444, #f59e0b);
+}
+.card-emoji { font-size: 4rem; margin-bottom: var(--space-md); }
+.card-dest-name { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; margin-top: var(--space-sm); }
+.card-dest-city { font-size: 1.1rem; opacity: 0.8; }
+
+/* Card 3: Visa Days */
+.card-visa-days {
+  background: linear-gradient(135deg, #10b981, #00d4aa);
+}
+.card-passport-icon { font-size: 3rem; margin-bottom: var(--space-md); }
+.progress-bar {
+  width: 80%;
+  height: 12px;
+  background: rgba(255,255,255,0.2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-top: var(--space-md);
+}
+.progress-fill {
+  height: 100%;
+  background: white;
+  border-radius: var(--radius-full);
+  transition: width 1.5s ease-out;
+}
+.progress-label { font-size: 0.85rem; opacity: 0.7; margin-top: var(--space-xs); }
+
+/* Card 4: Longest Trip */
+.card-longest {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+}
+.route-flags { display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap; margin-bottom: var(--space-md); }
+.route-flag { font-size: 2.5rem; }
+.route-countries { font-size: 0.9rem; opacity: 0.85; margin-top: var(--space-sm); max-width: 280px; }
+.card-dates { font-size: 0.8rem; opacity: 0.6; margin-top: var(--space-xs); }
+
+/* Card 5: Continents */
+.card-continents {
+  background: #0a0e1a;
+}
+.pie-wrapper { width: 100%; margin: var(--space-md) 0; }
+.continent-legend { display: flex; flex-wrap: wrap; gap: var(--space-sm); justify-content: center; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 0.8rem; opacity: 0.9; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+/* Card 6: Lifetime */
+.card-lifetime {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+.lifetime-circle {
+  width: 140px; height: 140px;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.3);
+  display: flex; align-items: center; justify-content: center;
+  margin: var(--space-lg) auto;
+  background: rgba(255,255,255,0.1);
+}
+.lifetime-pct { font-family: var(--font-display); font-size: 2.5rem; font-weight: 900; }
+.lifetime-stats { display: flex; gap: var(--space-xl); margin-top: var(--space-lg); }
+.lifetime-stat { display: flex; flex-direction: column; align-items: center; }
+.stat-num { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; }
+.stat-label { font-size: 0.8rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* Card 7: Badges */
+.card-badges {
+  background: linear-gradient(135deg, #1e2a45, #8b5cf6);
+}
+.badges-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); width: 100%; }
+.badge-item {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: var(--space-sm);
+  background: rgba(255,255,255,0.08);
+  border-radius: var(--radius-md);
+}
+.badge-icon { font-size: 2rem; }
+.badge-name { font-size: 0.65rem; text-align: center; opacity: 0.9; font-weight: 600; }
+
+/* Card 8: Comparison */
+.card-comparison {
+  background: linear-gradient(135deg, #ec4899, #ef4444);
+}
+.comparison-arrow { font-size: 3rem; }
+.comparison-arrow.up { color: #86efac; }
+.comparison-arrow.down { color: #fca5a5; }
+.comparison-bars { width: 80%; margin-top: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm); }
+.comp-bar { display: flex; align-items: center; gap: var(--space-sm); }
+.comp-label { font-size: 0.8rem; width: 40px; text-align: right; opacity: 0.8; }
+.comp-track { flex: 1; height: 16px; background: rgba(255,255,255,0.15); border-radius: var(--radius-full); overflow: hidden; }
+.comp-fill { height: 100%; border-radius: var(--radius-full); transition: width 1s ease-out; }
+.comp-fill.prev { background: rgba(255,255,255,0.4); }
+.comp-fill.curr { background: white; }
+.comp-val { font-size: 0.9rem; font-weight: 700; width: 24px; }

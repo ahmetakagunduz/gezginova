@@ -1,0 +1,76 @@
+/* ===== Dashboard Layout ===== */
+
+.dashboard-layout {
+  display: flex;
+  height: calc(100vh - var(--header-height)); /* Fit under header without scrolling */
+  margin-top: var(--header-height);
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+}
+
+/* ---- Main Map Area (Left) ---- */
+.dashboard-main {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  /* Dark premium background behind the map */
+  background: var(--bg-primary);
+}
+
+
+
+/* Map Container */
+.dashboard-map-container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dashboard-map-container .world-map {
+  width: 100%;
+  height: 100%;
+  background: transparent !important;
+  border-radius: 0;
+  min-height: auto;
+}
+
+/* ---- Sidebar Area (Right) ---- */
+.dashboard-sidebar {
+  width: 400px;
+  min-width: 400px;
+  height: 100%;
+  background: var(--glass-bg-light);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.3);
+  z-index: 20;
+  position: relative;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  .dashboard-sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: 40vh; /* Bottom panel on mobile */
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .dashboard-main {
+    height: 60vh;
+  }
+  .dashboard-title {
+    font-size: 1.5rem;
+  }
+}
+

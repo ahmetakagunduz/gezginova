@@ -1,0 +1,1160 @@
+{
+  "Afghanistan": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Albania": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Algeria": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Andorra": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 90,
+    "rawRequirement": "Visa required",
+    "rawStay": "90 days"
+  },
+  "Angola": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Antigua and Barbuda": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 180,
+    "rawRequirement": "Visa not required",
+    "rawStay": "180 days"
+  },
+  "Argentina": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Armenia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 120,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "120 days"
+  },
+  "Australia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Austria": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Azerbaijan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Bahamas": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 240,
+    "rawRequirement": "Visa not required",
+    "rawStay": "8 months"
+  },
+  "Bahrain": {
+    "visaStatus": "e_vize",
+    "allowedDays": 14,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "14 days"
+  },
+  "Bangladesh": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 30,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Barbados": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 180,
+    "rawRequirement": "Visa not required",
+    "rawStay": "6 months"
+  },
+  "Belarus": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Belgium": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Belize": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Benin": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "Bhutan": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "90 days"
+  },
+  "Bolivia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Bosnia and Herzegovina": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Botswana": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Brazil": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Brunei": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Bulgaria": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Burkina Faso": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Burundi": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Online Visa / Visa on arrival",
+    "rawStay": "1 month"
+  },
+  "Cambodia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Cameroon": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Canada": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Cape Verde": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Central African Republic": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Chad": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Chile": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "China": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Colombia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Comoros": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 45,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "45 days"
+  },
+  "Republic of the Congo": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Democratic Republic of the Congo": {
+    "visaStatus": "e_vize",
+    "allowedDays": 7,
+    "rawRequirement": "eVisa",
+    "rawStay": "7 days"
+  },
+  "Costa Rica": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Côte d'Ivoire": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "3 months"
+  },
+  "Croatia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Cuba": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "90 days"
+  },
+  "Cyprus": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Czech Republic": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Denmark": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Djibouti": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "90 days"
+  },
+  "Dominica": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 21,
+    "rawRequirement": "Visa not required",
+    "rawStay": "21 days"
+  },
+  "Dominican Republic": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Ecuador": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Egypt": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": ""
+  },
+  "El Salvador": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Equatorial Guinea": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Eritrea": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Estonia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Eswatini": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Ethiopia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Fiji": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 120,
+    "rawRequirement": "Visa not required",
+    "rawStay": "4 months"
+  },
+  "Finland": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "France": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Gabon": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "90 days"
+  },
+  "Gambia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Georgia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 360,
+    "rawRequirement": "Visa not required",
+    "rawStay": "360 days"
+  },
+  "Germany": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Ghana": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Greece": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Grenada": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Guatemala": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Guinea": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "90 days"
+  },
+  "Guinea-Bissau": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Guyana": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Haiti": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Honduras": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Hungary": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Iceland": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "India": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Indonesia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required / e-VOA",
+    "rawStay": "30 days"
+  },
+  "Iran": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Iraq": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required (conditional) / eVisa",
+    "rawStay": "30 days"
+  },
+  "Ireland": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Israel": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Italy": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Jamaica": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Japan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Jordan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Kazakhstan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Kenya": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Electronic Travel Authorisation",
+    "rawStay": "90 days"
+  },
+  "Kiribati": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "North Korea": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "South Korea": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Electronic Travel Authorization",
+    "rawStay": "90 days"
+  },
+  "Kuwait": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "3 months"
+  },
+  "Kyrgyzstan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Laos": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Latvia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Lebanon": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Free visa on arrival",
+    "rawStay": "1 month"
+  },
+  "Lesotho": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Liberia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 90,
+    "rawRequirement": "e-VOA",
+    "rawStay": "3 months"
+  },
+  "Libya": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 0,
+    "rawRequirement": "Visa not required (conditional) / eVisa",
+    "rawStay": ""
+  },
+  "Liechtenstein": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Lithuania": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Luxembourg": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Madagascar": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Malawi": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "Malaysia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Maldives": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 30,
+    "rawRequirement": "Free visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Mali": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Malta": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Marshall Islands": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Mauritania": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "Mauritius": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Mexico": {
+    "visaStatus": "e_vize",
+    "allowedDays": 180,
+    "rawRequirement": "Electronic Authorization System",
+    "rawStay": "180 days"
+  },
+  "Micronesia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Moldova": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Monaco": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Mongolia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Montenegro": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Morocco": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Mozambique": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Myanmar": {
+    "visaStatus": "e_vize",
+    "allowedDays": 28,
+    "rawRequirement": "eVisa",
+    "rawStay": "28 days"
+  },
+  "Namibia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "3 months / 90 days"
+  },
+  "Nauru": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Nepal": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Online Visa / Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Netherlands": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "New Zealand": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Nicaragua": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Niger": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Nigeria": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "North Macedonia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Norway": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Oman": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Pakistan": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "3 months"
+  },
+  "Palau": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 30,
+    "rawRequirement": "Free visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Panama": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Papua New Guinea": {
+    "visaStatus": "e_vize",
+    "allowedDays": 60,
+    "rawRequirement": "eVisa",
+    "rawStay": "60 days"
+  },
+  "Paraguay": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Peru": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 183,
+    "rawRequirement": "Visa not required",
+    "rawStay": "183 days"
+  },
+  "Philippines": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Poland": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Portugal": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Qatar": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Romania": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Russia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "Rwanda": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Saint Kitts and Nevis": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Electronic Travel Authorisation",
+    "rawStay": "3 months"
+  },
+  "Saint Lucia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 0,
+    "rawRequirement": "Visa not required",
+    "rawStay": "6 weeks"
+  },
+  "Saint Vincent and the Grenadines": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Samoa": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 90,
+    "rawRequirement": "Entry permit on arrival",
+    "rawStay": "90 days"
+  },
+  "San Marino": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "São Tomé and Príncipe": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 15,
+    "rawRequirement": "Visa not required",
+    "rawStay": "15 days"
+  },
+  "Saudi Arabia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Senegal": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "1 month"
+  },
+  "Serbia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Seychelles": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "Electronic Border System",
+    "rawStay": "3 months"
+  },
+  "Sierra Leone": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "3 months / 30 days"
+  },
+  "Singapore": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Slovakia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Slovenia": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Solomon Islands": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Somalia": {
+    "visaStatus": "e_vize",
+    "allowedDays": 30,
+    "rawRequirement": "eVisa",
+    "rawStay": "30 days"
+  },
+  "South Africa": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "South Sudan": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Spain": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Sri Lanka": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 30,
+    "rawRequirement": "ETA / Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Sudan": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "1 month"
+  },
+  "Suriname": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Sweden": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Switzerland": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Syria": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Tajikistan": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Tanzania": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "90 days"
+  },
+  "Thailand": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 60,
+    "rawRequirement": "Visa not required",
+    "rawStay": "60 days"
+  },
+  "Timor-Leste": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 30,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "30 days"
+  },
+  "Togo": {
+    "visaStatus": "e_vize",
+    "allowedDays": 15,
+    "rawRequirement": "eVisa",
+    "rawStay": "15 days"
+  },
+  "Tonga": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 31,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "31 days"
+  },
+  "Trinidad and Tobago": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Tunisia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "3 months"
+  },
+  "Turkmenistan": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Tuvalu": {
+    "visaStatus": "kapida_vize",
+    "allowedDays": 0,
+    "rawRequirement": "Visa on arrival",
+    "rawStay": "1 month"
+  },
+  "Uganda": {
+    "visaStatus": "e_vize",
+    "allowedDays": 90,
+    "rawRequirement": "eVisa",
+    "rawStay": "3 months"
+  },
+  "Ukraine": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "United Arab Emirates": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "United Kingdom": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "United States": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Uruguay": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Uzbekistan": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 30,
+    "rawRequirement": "Visa not required",
+    "rawStay": "30 days"
+  },
+  "Vanuatu": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 120,
+    "rawRequirement": "Visa not required",
+    "rawStay": "120 days"
+  },
+  "Vatican City": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Venezuela": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Vietnam": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa",
+    "rawStay": ""
+  },
+  "Yemen": {
+    "visaStatus": "vize_gerekli",
+    "allowedDays": 0,
+    "rawRequirement": "Visa required",
+    "rawStay": ""
+  },
+  "Zambia": {
+    "visaStatus": "vizesiz",
+    "allowedDays": 90,
+    "rawRequirement": "Visa not required",
+    "rawStay": "90 days"
+  },
+  "Zimbabwe": {
+    "visaStatus": "e_vize",
+    "allowedDays": 0,
+    "rawRequirement": "eVisa / Visa on arrival",
+    "rawStay": "1 month"
+  }
+}
