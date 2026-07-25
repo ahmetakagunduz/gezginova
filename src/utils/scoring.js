@@ -47,7 +47,7 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
     departureCity = 'IST',
     tags = [],
     days = 7,
-    budgetLevel = 'gezgin',
+    budgetLevel = 'local',
     visaPreference = 'hepsi'
   } = preferences;
 

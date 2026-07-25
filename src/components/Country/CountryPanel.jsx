@@ -17,8 +17,8 @@ const VISA_META = {
  */
 const BUDGET_TIERS = [
   { key: 'low',    label: 'Minimal',   icon: '🎒' },
-  { key: 'mid',    label: 'Gezgin',    icon: '🧭' },
-  { key: 'high',   label: 'Local',     icon: '💎' },
+  { key: 'mid',    label: 'Local',     icon: '🏘️' },
+  { key: 'high',   label: 'Gezgin',    icon: '🧭' },
 ];
 
 /**

@@ -22,7 +22,7 @@ export default function PlannerWizard({ onCalculate }) {
     departureCity: 'IST',
     tags: [],
     days: 7,
-    budgetLevel: 'gezgin',
+    budgetLevel: 'local',
     visaPreference: 'hepsi',
   })
 
