@@ -3,7 +3,6 @@ import { RotateCcw, Compass } from 'lucide-react'
 import PlannerWizard from '../components/Planner/PlannerWizard'
 import RouteResults from '../components/Planner/RouteResults'
 import { countries } from '../data/countries'
-import { flightPrices } from '../data/flightPrices'
 import { getTopRoutes } from '../utils/scoring'
 import './PlannerPage.css'
 
@@ -32,7 +31,7 @@ export default function PlannerPage() {
     await new Promise((r) => setTimeout(r, 600))
 
     try {
-      const topRoutes = getTopRoutes(countries, data, flightPrices, 5)
+      const topRoutes = await getTopRoutes(countries, data, 5)
       setResults(topRoutes)
     } catch (err) {
       console.error('Route calculation error:', err)

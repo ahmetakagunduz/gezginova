@@ -10,21 +10,23 @@ function calculateStyleScore(countryTags, userTags) {
   return intersection / userTags.length;
 }
 
-// Bütçe uygunluk skoru
-function calculateBudgetScore(totalCost, budgetLevel) {
+// Bütçe uygunluk skoru (Günlük maliyet üzerinden)
+function calculateBudgetScore(totalCost, budgetLevel, days = 7) {
   const range = BUDGET_RANGES[budgetLevel];
   if (!range) return 0.5;
   
-  if (totalCost >= range.min && totalCost <= range.max) {
+  const perDayCost = totalCost / days;
+  
+  if (perDayCost >= range.min && perDayCost <= range.max) {
     return 1.0; // Tam bütçe içinde
   }
   
-  if (totalCost < range.min) {
+  if (perDayCost < range.min) {
     return 0.8; // Bütçenin altında - tasarruf
   }
   
   // Bütçenin üzerinde
-  const overPercent = ((totalCost - range.max) / range.max) * 100;
+  const overPercent = ((perDayCost - range.max) / range.max) * 100;
   if (overPercent <= 20) return 0.5; // Biraz üstünde
   if (overPercent <= 50) return 0.2; // Epey üstünde
   return 0.05; // Çok üstünde
@@ -42,7 +44,7 @@ function filterByVisa(countryList, visaPreference) {
 }
 
 // Ana fonksiyon: En iyi rotaları bul
-export function getTopRoutes(countryList, preferences, flightPricesData, count = 5) {
+export async function getTopRoutes(countryList, preferences, count = 5) {
   const {
     departureCity = 'IST',
     tags = [],
@@ -54,14 +56,38 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
   // 1. Vize filtresi
   const eligible = filterByVisa(countryList, visaPreference);
 
+  // 1.5. Dinamik uçuş fiyatlarını API'den çek (Simülasyon API'si)
+  let dynamicFlights = null;
+  try {
+    const destinations = eligible.map(c => c.id);
+    const res = await fetch('/api/flights', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        destinations, 
+        departure: departureCity, 
+        month: preferences.travelMonth || (new Date().getMonth() + 1), 
+        budgetLevel 
+      })
+    });
+    const data = await res.json();
+    if (data && data.success) {
+      dynamicFlights = data.prices;
+    }
+  } catch (err) {
+    console.error("Flight API Hatası (Fallback kullanılacak):", err);
+  }
+
   // 2. Her ülke için skor hesapla
   const scored = eligible.map(country => {
     const styleScore = calculateStyleScore(country.tags, tags);
-    const cost = calculateTripCost(country, departureCity, days, budgetLevel);
-    const budgetScore = calculateBudgetScore(cost.total, budgetLevel);
+    const cost = calculateTripCost(country, departureCity, days, budgetLevel, dynamicFlights);
+    const budgetScore = calculateBudgetScore(cost.total, budgetLevel, days);
     const range = BUDGET_RANGES[budgetLevel];
     
     const finalScore = (styleScore * 0.5) + (budgetScore * 0.5);
+    
+    const perDayCost = cost.total / days;
     
     return {
       country,
@@ -69,8 +95,8 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
       styleScore: Math.round(styleScore * 100),
       budgetScore: Math.round(budgetScore * 100),
       cost,
-      isOverBudget: cost.total > (range?.max || Infinity),
-      overBudgetPercent: range?.max ? Math.round(((cost.total - range.max) / range.max) * 100) : 0,
+      isOverBudget: perDayCost > (range?.max || Infinity),
+      overBudgetPercent: range?.max ? Math.round(((perDayCost - range.max) / range.max) * 100) : 0,
       isCluster: false,
     };
   });
@@ -88,14 +114,16 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
       const eligibleCluster = filterByVisa(clusterCountries, visaPreference);
       
       if (eligibleCluster.length >= 2) {
-        const clusterCost = calculateClusterCost(cluster, countryList, departureCity, days, budgetLevel);
+        const clusterCost = calculateClusterCost(cluster, countryList, departureCity, days, budgetLevel, dynamicFlights);
         if (!clusterCost) continue;
         
         const avgStyleScore = eligibleCluster.reduce((sum, c) => sum + calculateStyleScore(c.tags, tags), 0) / eligibleCluster.length;
-        const budgetScoreCluster = calculateBudgetScore(clusterCost.total, budgetLevel);
+        const budgetScoreCluster = calculateBudgetScore(clusterCost.total, budgetLevel, days);
         const finalScore = (avgStyleScore * 0.5) + (budgetScoreCluster * 0.5);
         const range = BUDGET_RANGES[budgetLevel];
         
+        const perDayCost = clusterCost.total / days;
+
         clusterRoutes.push({
           cluster,
           countries: eligibleCluster,
@@ -103,8 +131,8 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
           styleScore: Math.round(avgStyleScore * 100),
           budgetScore: Math.round(budgetScoreCluster * 100),
           cost: clusterCost,
-          isOverBudget: clusterCost.total > (range?.max || Infinity),
-          overBudgetPercent: range?.max ? Math.round(((clusterCost.total - range.max) / range.max) * 100) : 0,
+          isOverBudget: perDayCost > (range?.max || Infinity),
+          overBudgetPercent: range?.max ? Math.round(((perDayCost - range.max) / range.max) * 100) : 0,
           isCluster: true,
         });
       }

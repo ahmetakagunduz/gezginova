@@ -22,6 +22,7 @@ export default function PlannerWizard({ onCalculate }) {
     departureCity: 'IST',
     tags: [],
     days: 7,
+    travelMonth: new Date().getMonth() + 1, // 1-12
     budgetLevel: 'local',
     visaPreference: 'hepsi',
   })
@@ -63,7 +64,14 @@ export default function PlannerWizard({ onCalculate }) {
       case 1:
         return <StepStyle value={formData.tags} onChange={updateField('tags')} />
       case 2:
-        return <StepDuration value={formData.days} onChange={updateField('days')} />
+        return (
+          <StepDuration 
+            days={formData.days} 
+            month={formData.travelMonth}
+            onDaysChange={updateField('days')} 
+            onMonthChange={updateField('travelMonth')}
+          />
+        )
       case 3:
         return <StepBudget value={formData.budgetLevel} onChange={updateField('budgetLevel')} />
       case 4:

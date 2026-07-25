@@ -162,7 +162,7 @@ export const flightPrices = {
 
 // Uçuş fiyatı al (fallback: İstanbul fiyatları)
 export function getFlightPrice(departureCity, destinationCountryId, budgetLevel) {
-  const level = budgetLevel === "dusuk" ? "low" : budgetLevel === "orta" ? "mid" : "high";
+  const level = budgetLevel === "local" ? "mid" : "high";
   const cityPrices = flightPrices[departureCity] || flightPrices["IST"];
   const countryPrices = cityPrices[destinationCountryId];
   

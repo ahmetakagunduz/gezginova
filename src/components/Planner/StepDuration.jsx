@@ -9,16 +9,23 @@ const QUICK_OPTIONS = [
   { label: '1 Ay', days: 30 },
 ]
 
-export default function StepDuration({ value = 7, onChange }) {
+const MONTHS = [
+  { value: 1, label: 'Ocak' }, { value: 2, label: 'Şubat' }, { value: 3, label: 'Mart' },
+  { value: 4, label: 'Nisan' }, { value: 5, label: 'Mayıs' }, { value: 6, label: 'Haziran' },
+  { value: 7, label: 'Temmuz' }, { value: 8, label: 'Ağustos' }, { value: 9, label: 'Eylül' },
+  { value: 10, label: 'Ekim' }, { value: 11, label: 'Kasım' }, { value: 12, label: 'Aralık' }
+];
+
+export default function StepDuration({ days = 7, month = 1, onDaysChange, onMonthChange }) {
   const sliderRef = useRef(null)
 
   // Update CSS custom property for gradient progress
   useEffect(() => {
     if (sliderRef.current) {
-      const percent = ((value - 3) / (30 - 3)) * 100
+      const percent = ((days - 3) / (30 - 3)) * 100
       sliderRef.current.style.setProperty('--slider-progress', `${percent}%`)
     }
-  }, [value])
+  }, [days])
 
   return (
     <div className="step-duration">
@@ -26,8 +33,8 @@ export default function StepDuration({ value = 7, onChange }) {
       <p className="step-subtitle">Süreyi belirle, biz rotayı çizelim</p>
 
       <div className="duration-display">
-        <span className="duration-number" key={value}>
-          {value}
+        <span className="duration-number" key={days}>
+          {days}
         </span>
         <span className="duration-unit">GÜN</span>
       </div>
@@ -39,8 +46,8 @@ export default function StepDuration({ value = 7, onChange }) {
           type="range"
           min={3}
           max={30}
-          value={value}
-          onChange={(e) => onChange(Number(e.target.value))}
+          value={days}
+          onChange={(e) => onDaysChange(Number(e.target.value))}
           className="duration-slider"
         />
         <span className="duration-max">30</span>
@@ -50,12 +57,26 @@ export default function StepDuration({ value = 7, onChange }) {
         {QUICK_OPTIONS.map((opt) => (
           <button
             key={opt.days}
-            className={`duration-quick-btn ${value === opt.days ? 'active' : ''}`}
-            onClick={() => onChange(opt.days)}
+            className={`duration-quick-btn ${days === opt.days ? 'active' : ''}`}
+            onClick={() => onDaysChange(opt.days)}
             type="button"
           >
             {opt.label}
             <span className="duration-quick-days">({opt.days})</span>
+          </button>
+        ))}
+      </div>
+
+      <h3 className="step-subtitle" style={{ marginTop: '2rem' }}>Hangi Ay Gideceksiniz?</h3>
+      <div className="month-grid">
+        {MONTHS.map(m => (
+          <button
+            key={m.value}
+            className={`month-btn ${month === m.value ? 'active' : ''}`}
+            onClick={() => onMonthChange(m.value)}
+            type="button"
+          >
+            {m.label}
           </button>
         ))}
       </div>

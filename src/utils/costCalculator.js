@@ -1,10 +1,12 @@
 // GezgiNova - Maliyet Hesaplama
 import { getFlightPrice } from '../data/flightPrices';
 
-export function calculateTripCost(country, departureCity, days, budgetLevel) {
+export function calculateTripCost(country, departureCity, days, budgetLevel, dynamicFlights = null) {
   const level = budgetLevel === "local" ? "mid" : "high";
   
-  const flight = getFlightPrice(departureCity, country.id, budgetLevel);
+  const flight = dynamicFlights && dynamicFlights[country.id] 
+                 ? dynamicFlights[country.id] 
+                 : getFlightPrice(departureCity, country.id, budgetLevel);
   const accommodation = days * (country.dailyAccommodation?.[level] || 400);
   const living = days * (country.dailyCost?.[level] || 300);
   const visa = country.visaStatus === 'e_vize' ? (country.eVisaFee || 0) : 0;
@@ -19,7 +21,7 @@ export function calculateTripCost(country, departureCity, days, budgetLevel) {
   };
 }
 
-export function calculateClusterCost(cluster, countries, departureCity, days, budgetLevel) {
+export function calculateClusterCost(cluster, countries, departureCity, days, budgetLevel, dynamicFlights = null) {
   const clusterCountries = countries.filter(c => cluster.countries.includes(c.id));
   if (clusterCountries.length === 0) return null;
   
@@ -28,7 +30,9 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
   
   // İlk ülkeye uçuş fiyatı
   const entryCountry = clusterCountries[0];
-  const flight = getFlightPrice(departureCity, entryCountry.id, budgetLevel);
+  const flight = dynamicFlights && dynamicFlights[entryCountry.id] 
+                 ? dynamicFlights[entryCountry.id] 
+                 : getFlightPrice(departureCity, entryCountry.id, budgetLevel);
   
   // Her ülke için konaklama ve yaşam maliyeti
   let accommodation = 0;
@@ -58,8 +62,8 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
   };
 }
 
-// Bütçe aralıkları (USD)
+// Bütçe aralıkları (USD cinsinden günlük kişi başı limit)
 export const BUDGET_RANGES = {
-  local: { min: 0, max: 2000, label: "Local" },
-  gezgin: { min: 2000, max: Infinity, label: "Gezgin" },
+  local: { min: 0, max: 120, label: "Local" }, // Maksimum 120 USD/günlük toplam
+  gezgin: { min: 120, max: Infinity, label: "Gezgin" },
 };
