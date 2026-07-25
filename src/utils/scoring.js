@@ -10,12 +10,10 @@ function calculateStyleScore(countryTags, userTags) {
   return intersection / userTags.length;
 }
 
-// Bütçe uygunluk skoru (Günlük maliyet üzerinden)
-function calculateBudgetScore(totalCost, budgetLevel, days = 7) {
+// Bütçe uygunluk skoru (Sadece günlük harcama üzerinden)
+function calculateBudgetScore(perDayCost, budgetLevel) {
   const range = BUDGET_RANGES[budgetLevel];
   if (!range) return 0.5;
-  
-  const perDayCost = totalCost / days;
   
   if (perDayCost >= range.min && perDayCost <= range.max) {
     return 1.0; // Tam bütçe içinde
@@ -82,12 +80,12 @@ export async function getTopRoutes(countryList, preferences, count = 5) {
   const scored = eligible.map(country => {
     const styleScore = calculateStyleScore(country.tags, tags);
     const cost = calculateTripCost(country, departureCity, days, budgetLevel, dynamicFlights);
-    const budgetScore = calculateBudgetScore(cost.total, budgetLevel, days);
+    const budgetScore = calculateBudgetScore(cost.perDay, budgetLevel);
     const range = BUDGET_RANGES[budgetLevel];
     
     const finalScore = (styleScore * 0.5) + (budgetScore * 0.5);
     
-    const perDayCost = cost.total / days;
+    const perDayCost = cost.perDay;
     
     return {
       country,
@@ -118,11 +116,14 @@ export async function getTopRoutes(countryList, preferences, count = 5) {
         if (!clusterCost) continue;
         
         const avgStyleScore = eligibleCluster.reduce((sum, c) => sum + calculateStyleScore(c.tags, tags), 0) / eligibleCluster.length;
-        const budgetScoreCluster = calculateBudgetScore(clusterCost.total, budgetLevel, days);
+        
+        // Küme için günlük ortalama maliyet = Konaklama + Yaşam / Gün
+        const clusterPerDay = Math.round((clusterCost.accommodation + clusterCost.living) / days);
+        const budgetScoreCluster = calculateBudgetScore(clusterPerDay, budgetLevel);
         const finalScore = (avgStyleScore * 0.5) + (budgetScoreCluster * 0.5);
         const range = BUDGET_RANGES[budgetLevel];
         
-        const perDayCost = clusterCost.total / days;
+        const perDayCost = clusterPerDay;
 
         clusterRoutes.push({
           cluster,

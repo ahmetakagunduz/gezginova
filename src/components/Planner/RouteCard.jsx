@@ -44,7 +44,7 @@ export default function RouteCard({ route, rank, days, exchangeRate = 35 }) {
     isCluster
   } = route
 
-  if (!isCluster && !country) return null
+  // Hooks must be called before early returns
 
   const { visaLabel, visaClass } = useMemo(() => {
     let label = ''
@@ -140,6 +140,8 @@ export default function RouteCard({ route, rank, days, exchangeRate = 35 }) {
     const withFact = clusterCountries.find(c => c.interestingFact);
     return withFact ? withFact.interestingFact : null;
   }, [isCluster, clusterCountries, country]);
+
+  if (!isCluster && !country) return null;
 
   return (
     <div className={`route-card ${expanded ? 'expanded' : ''}`} style={{ animationDelay: `${rank * 100}ms` }}>
