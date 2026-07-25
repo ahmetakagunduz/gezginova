@@ -60,7 +60,7 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
 
 // Bütçe aralıkları (USD)
 export const BUDGET_RANGES = {
-  dusuk: { min: 0, max: 400, label: "Düşük" },
-  orta: { min: 400, max: 1000, label: "Orta" },
-  yuksek: { min: 1000, max: Infinity, label: "Yüksek" },
+  dusuk: { min: 0, max: 1500, label: "Düşük" },
+  orta: { min: 1500, max: 3000, label: "Orta" },
+  yuksek: { min: 3000, max: Infinity, label: "Yüksek" },
 };

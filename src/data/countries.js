@@ -16,14 +16,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 38,
-      mid: 76,
-      high: 143
+      low: 57,
+      mid: 114,
+      high: 215
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 57,
-      high: 119
+      low: 44,
+      mid: 86,
+      high: 179
     },
     tags: [
       "sehir_kultur",
@@ -54,14 +54,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 45,
-      mid: 91,
-      high: 170
+      low: 68,
+      mid: 137,
+      high: 255
     },
     dailyAccommodation: {
-      low: 34,
-      mid: 68,
-      high: 142
+      low: 51,
+      mid: 102,
+      high: 213
     },
     tags: [
       "sehir_kultur",
@@ -92,14 +92,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 73,
-      mid: 145,
-      high: 272
+      low: 110,
+      mid: 218,
+      high: 408
     },
     dailyAccommodation: {
-      low: 54,
-      mid: 109,
-      high: 227
+      low: 81,
+      mid: 164,
+      high: 341
     },
     tags: [
       "sehir_kultur",
@@ -126,14 +126,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 27,
-      mid: 54,
-      high: 102
+      low: 41,
+      mid: 81,
+      high: 153
     },
     dailyAccommodation: {
-      low: 20,
-      mid: 41,
-      high: 85
+      low: 30,
+      mid: 62,
+      high: 128
     },
     tags: [
       "deniz_plaj",
@@ -164,14 +164,14 @@ export const countries = [
     allowedDaysNote: "60 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 29,
-      mid: 59,
-      high: 110
+      low: 44,
+      mid: 89,
+      high: 165
     },
     dailyAccommodation: {
-      low: 22,
-      mid: 44,
-      high: 92
+      low: 33,
+      mid: 66,
+      high: 138
     },
     tags: [
       "deniz_plaj",
@@ -204,14 +204,14 @@ export const countries = [
     allowedDaysNote: "90 gün vizesiz kalış hakkı",
     eVisaFee: 0,
     dailyCost: {
-      low: 32,
-      mid: 64,
-      high: 120
+      low: 48,
+      mid: 96,
+      high: 180
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 100
+      low: 36,
+      mid: 72,
+      high: 150
     },
     tags: [
       "sehir_kultur",
@@ -240,14 +240,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 151
+      low: 60,
+      mid: 120,
+      high: 227
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 126
+      low: 45,
+      mid: 90,
+      high: 189
     },
     tags: [
       "sehir_kultur",
@@ -273,14 +273,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 36,
-      mid: 72,
-      high: 135
+      low: 54,
+      mid: 108,
+      high: 203
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 54,
-      high: 112
+      low: 41,
+      mid: 81,
+      high: 168
     },
     tags: [
       "sehir_kultur",
@@ -312,14 +312,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 26,
-      mid: 53,
-      high: 99
+      low: 39,
+      mid: 80,
+      high: 149
     },
     dailyAccommodation: {
-      low: 20,
-      mid: 40,
-      high: 83
+      low: 30,
+      mid: 60,
+      high: 125
     },
     tags: [
       "deniz_plaj",
@@ -351,14 +351,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 62,
-      high: 116
+      low: 47,
+      mid: 93,
+      high: 174
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 46,
-      high: 97
+      low: 35,
+      mid: 69,
+      high: 146
     },
     tags: [
       "doga_dag",
@@ -389,14 +389,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 57,
-      high: 107
+      low: 42,
+      mid: 86,
+      high: 161
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 43,
-      high: 89
+      low: 32,
+      mid: 65,
+      high: 134
     },
     tags: [
       "sehir_kultur",
@@ -428,14 +428,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 25,
-      mid: 50,
-      high: 93
+      low: 38,
+      mid: 75,
+      high: 140
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 37,
-      high: 78
+      low: 29,
+      mid: 56,
+      high: 117
     },
     tags: [
       "doga_dag",
@@ -466,14 +466,14 @@ export const countries = [
     allowedDaysNote: "183 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 26,
-      mid: 52,
-      high: 98
+      low: 39,
+      mid: 78,
+      high: 147
     },
     dailyAccommodation: {
-      low: 20,
-      mid: 39,
-      high: 81
+      low: 30,
+      mid: 59,
+      high: 122
     },
     tags: [
       "sehir_kultur",
@@ -504,14 +504,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 43,
-      mid: 86,
-      high: 162
+      low: 65,
+      mid: 129,
+      high: 243
     },
     dailyAccommodation: {
-      low: 32,
-      mid: 65,
-      high: 135
+      low: 48,
+      mid: 98,
+      high: 203
     },
     tags: [
       "deniz_plaj",
@@ -541,14 +541,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 26,
-      mid: 51,
-      high: 96
+      low: 39,
+      mid: 77,
+      high: 144
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 38,
-      high: 80
+      low: 29,
+      mid: 57,
+      high: 120
     },
     tags: [
       "doga_dag",
@@ -577,14 +577,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 86
+      low: 35,
+      mid: 69,
+      high: 129
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 34,
-      high: 72
+      low: 26,
+      mid: 51,
+      high: 108
     },
     tags: [
       "doga_dag",
@@ -614,14 +614,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 45,
-      mid: 91,
-      high: 170
+      low: 68,
+      mid: 137,
+      high: 255
     },
     dailyAccommodation: {
-      low: 34,
-      mid: 68,
-      high: 142
+      low: 51,
+      mid: 102,
+      high: 213
     },
     tags: [
       "doga_dag",
@@ -652,14 +652,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 37,
-      mid: 74,
-      high: 140
+      low: 56,
+      mid: 111,
+      high: 210
     },
     dailyAccommodation: {
-      low: 28,
-      mid: 56,
-      high: 116
+      low: 42,
+      mid: 84,
+      high: 174
     },
     tags: [
       "sehir_kultur",
@@ -690,14 +690,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 32,
-      mid: 63,
-      high: 118
+      low: 48,
+      mid: 95,
+      high: 177
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 47,
-      high: 98
+      low: 36,
+      mid: 71,
+      high: 147
     },
     tags: [
       "deniz_plaj",
@@ -726,14 +726,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 36,
-      mid: 72,
-      high: 134
+      low: 54,
+      mid: 108,
+      high: 201
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 54,
-      high: 112
+      low: 41,
+      mid: 81,
+      high: 168
     },
     tags: [
       "deniz_plaj",
@@ -764,14 +764,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 96,
-      high: 180
+      low: 72,
+      mid: 144,
+      high: 270
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 72,
-      high: 150
+      low: 54,
+      mid: 108,
+      high: 225
     },
     tags: [
       "sehir_kultur",
@@ -802,14 +802,14 @@ export const countries = [
     allowedDaysNote: "90 gün vizesiz kalış hakkı",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 96,
-      high: 180
+      low: 72,
+      mid: 144,
+      high: 270
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 72,
-      high: 150
+      low: 54,
+      mid: 108,
+      high: 225
     },
     tags: [
       "sehir_kultur",
@@ -838,14 +838,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 34,
-      mid: 68,
-      high: 128
+      low: 51,
+      mid: 102,
+      high: 192
     },
     dailyAccommodation: {
-      low: 26,
-      mid: 51,
-      high: 107
+      low: 39,
+      mid: 77,
+      high: 161
     },
     tags: [
       "deniz_plaj",
@@ -876,14 +876,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 55,
-      high: 104
+      low: 42,
+      mid: 83,
+      high: 156
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 42,
-      high: 87
+      low: 32,
+      mid: 63,
+      high: 131
     },
     tags: [
       "sehir_kultur",
@@ -913,14 +913,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 34,
-      mid: 68,
-      high: 128
+      low: 51,
+      mid: 102,
+      high: 192
     },
     dailyAccommodation: {
-      low: 26,
-      mid: 51,
-      high: 106
+      low: 39,
+      mid: 77,
+      high: 159
     },
     tags: [
       "sehir_kultur",
@@ -950,14 +950,14 @@ export const countries = [
     allowedDaysNote: "360 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 56,
-      high: 105
+      low: 42,
+      mid: 84,
+      high: 158
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 42,
-      high: 87
+      low: 32,
+      mid: 63,
+      high: 131
     },
     tags: [
       "sehir_kultur",
@@ -989,14 +989,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 25,
-      mid: 50,
-      high: 93
+      low: 38,
+      mid: 75,
+      high: 140
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 37,
-      high: 78
+      low: 29,
+      mid: 56,
+      high: 117
     },
     tags: [
       "sehir_kultur",
@@ -1026,14 +1026,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 29,
-      mid: 57,
-      high: 107
+      low: 44,
+      mid: 86,
+      high: 161
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 43,
-      high: 89
+      low: 32,
+      mid: 65,
+      high: 134
     },
     tags: [
       "sehir_kultur",
@@ -1061,14 +1061,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 25,
-      mid: 50,
-      high: 94
+      low: 38,
+      mid: 75,
+      high: 141
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 37,
-      high: 78
+      low: 29,
+      mid: 56,
+      high: 117
     },
     tags: [
       "sehir_kultur",
@@ -1099,14 +1099,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 87
+      low: 35,
+      mid: 69,
+      high: 131
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 35,
-      high: 73
+      low: 26,
+      mid: 53,
+      high: 110
     },
     tags: [
       "deniz_plaj",
@@ -1137,14 +1137,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 62,
-      high: 117
+      low: 47,
+      mid: 93,
+      high: 176
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 47,
-      high: 97
+      low: 35,
+      mid: 71,
+      high: 146
     },
     tags: [
       "doga_dag",
@@ -1175,14 +1175,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 25,
-      mid: 51,
-      high: 95
+      low: 38,
+      mid: 77,
+      high: 143
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 38,
-      high: 79
+      low: 29,
+      mid: 57,
+      high: 119
     },
     tags: [
       "doga_dag",
@@ -1211,14 +1211,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 47,
-      high: 87
+      low: 35,
+      mid: 71,
+      high: 131
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 35,
-      high: 73
+      low: 26,
+      mid: 53,
+      high: 110
     },
     tags: [
       "deniz_plaj",
@@ -1250,14 +1250,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 20,
-      mid: 40,
-      high: 74
+      low: 30,
+      mid: 60,
+      high: 111
     },
     dailyAccommodation: {
-      low: 15,
-      mid: 30,
-      high: 62
+      low: 23,
+      mid: 45,
+      high: 93
     },
     tags: [
       "deniz_plaj",
@@ -1290,14 +1290,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 26,
-      mid: 52,
-      high: 98
+      low: 39,
+      mid: 78,
+      high: 147
     },
     dailyAccommodation: {
-      low: 20,
-      mid: 39,
-      high: 82
+      low: 30,
+      mid: 59,
+      high: 123
     },
     tags: [
       "sehir_kultur",
@@ -1327,14 +1327,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 22,
-      mid: 44,
-      high: 83
+      low: 33,
+      mid: 66,
+      high: 125
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 33,
-      high: 69
+      low: 26,
+      mid: 50,
+      high: 104
     },
     tags: [
       "doga_dag",
@@ -1364,14 +1364,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 86
+      low: 35,
+      mid: 69,
+      high: 129
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 34,
-      high: 72
+      low: 26,
+      mid: 51,
+      high: 108
     },
     tags: [
       "sehir_kultur",
@@ -1401,14 +1401,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 26,
-      mid: 52,
-      high: 97
+      low: 39,
+      mid: 78,
+      high: 146
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 39,
-      high: 81
+      low: 29,
+      mid: 59,
+      high: 122
     },
     tags: [
       "sehir_kultur",
@@ -1437,14 +1437,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 87
+      low: 35,
+      mid: 69,
+      high: 131
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 35,
-      high: 73
+      low: 26,
+      mid: 53,
+      high: 110
     },
     tags: [
       "sehir_kultur",
@@ -1473,14 +1473,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 46,
-      mid: 93,
-      high: 174
+      low: 69,
+      mid: 140,
+      high: 261
     },
     dailyAccommodation: {
-      low: 35,
-      mid: 70,
-      high: 145
+      low: 53,
+      mid: 105,
+      high: 218
     },
     tags: [
       "deniz_plaj",
@@ -1511,14 +1511,14 @@ export const countries = [
     allowedDaysNote: "8 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 81,
-      mid: 162,
-      high: 304
+      low: 122,
+      mid: 243,
+      high: 456
     },
     dailyAccommodation: {
-      low: 61,
-      mid: 122,
-      high: 253
+      low: 92,
+      mid: 183,
+      high: 380
     },
     tags: [
       "deniz_plaj",
@@ -1547,14 +1547,14 @@ export const countries = [
     allowedDaysNote: "6 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -1584,14 +1584,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -1620,14 +1620,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 33,
-      mid: 67,
-      high: 125
+      low: 50,
+      mid: 101,
+      high: 188
     },
     dailyAccommodation: {
-      low: 25,
-      mid: 50,
-      high: 104
+      low: 38,
+      mid: 75,
+      high: 156
     },
     tags: [
       "deniz_plaj",
@@ -1656,14 +1656,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 36,
-      mid: 73,
-      high: 136
+      low: 54,
+      mid: 110,
+      high: 204
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 54,
-      high: 113
+      low: 41,
+      mid: 81,
+      high: 170
     },
     tags: [
       "sehir_kultur",
@@ -1693,14 +1693,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 29,
-      mid: 59,
-      high: 110
+      low: 44,
+      mid: 89,
+      high: 165
     },
     dailyAccommodation: {
-      low: 22,
-      mid: 44,
-      high: 92
+      low: 33,
+      mid: 66,
+      high: 138
     },
     tags: [
       "deniz_plaj",
@@ -1729,14 +1729,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 29,
-      mid: 58,
-      high: 109
+      low: 44,
+      mid: 87,
+      high: 164
     },
     dailyAccommodation: {
-      low: 22,
-      mid: 43,
-      high: 91
+      low: 33,
+      mid: 65,
+      high: 137
     },
     tags: [
       "doga_dag",
@@ -1766,14 +1766,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur",
@@ -1801,14 +1801,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -1839,14 +1839,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 1200,
     dailyCost: {
-      low: 32,
-      mid: 64,
-      high: 120
+      low: 48,
+      mid: 96,
+      high: 180
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 100
+      low: 36,
+      mid: 72,
+      high: 150
     },
     tags: [
       "sehir_kultur",
@@ -1877,14 +1877,14 @@ export const countries = [
     allowedDaysNote: "Kapıda ücretsiz vize ile 30 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 149
+      low: 60,
+      mid: 120,
+      high: 224
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur",
@@ -1914,14 +1914,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 800,
     dailyCost: {
-      low: 18,
-      mid: 35,
-      high: 66
+      low: 27,
+      mid: 53,
+      high: 99
     },
     dailyAccommodation: {
-      low: 13,
-      mid: 26,
-      high: 55
+      low: 20,
+      mid: 39,
+      high: 83
     },
     tags: [
       "doga_dag",
@@ -1952,14 +1952,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 1000,
     dailyCost: {
-      low: 28,
-      mid: 56,
-      high: 105
+      low: 42,
+      mid: 84,
+      high: 158
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 42,
-      high: 88
+      low: 32,
+      mid: 63,
+      high: 132
     },
     tags: [
       "sehir_kultur",
@@ -1990,14 +1990,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 1000,
     dailyCost: {
-      low: 32,
-      mid: 64,
-      high: 120
+      low: 48,
+      mid: 96,
+      high: 180
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 100
+      low: 36,
+      mid: 72,
+      high: 150
     },
     tags: [
       "doga_dag",
@@ -2027,14 +2027,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 39,
-      mid: 78,
-      high: 146
+      low: 59,
+      mid: 117,
+      high: 219
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 58,
-      high: 122
+      low: 44,
+      mid: 87,
+      high: 183
     },
     tags: [
       "deniz_plaj",
@@ -2063,14 +2063,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 750,
     dailyCost: {
-      low: 18,
-      mid: 35,
-      high: 66
+      low: 27,
+      mid: 53,
+      high: 99
     },
     dailyAccommodation: {
-      low: 13,
-      mid: 27,
-      high: 55
+      low: 20,
+      mid: 41,
+      high: 83
     },
     tags: [
       "sehir_kultur",
@@ -2101,14 +2101,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 500,
     dailyCost: {
-      low: 34,
-      mid: 69,
-      high: 129
+      low: 51,
+      mid: 104,
+      high: 194
     },
     dailyAccommodation: {
-      low: 26,
-      mid: 52,
-      high: 108
+      low: 39,
+      mid: 78,
+      high: 162
     },
     tags: [
       "sehir_kultur",
@@ -2135,14 +2135,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 600,
     dailyCost: {
-      low: 36,
-      mid: 73,
-      high: 137
+      low: 54,
+      mid: 110,
+      high: 206
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 55,
-      high: 114
+      low: 41,
+      mid: 83,
+      high: 171
     },
     tags: [
       "doga_dag",
@@ -2173,14 +2173,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 1000,
     dailyCost: {
-      low: 19,
-      mid: 39,
-      high: 73
+      low: 29,
+      mid: 59,
+      high: 110
     },
     dailyAccommodation: {
-      low: 15,
-      mid: 29,
-      high: 61
+      low: 23,
+      mid: 44,
+      high: 92
     },
     tags: [
       "doga_dag",
@@ -2210,14 +2210,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 900,
     dailyCost: {
-      low: 21,
-      mid: 42,
-      high: 80
+      low: 32,
+      mid: 63,
+      high: 120
     },
     dailyAccommodation: {
-      low: 16,
-      mid: 32,
-      high: 66
+      low: 24,
+      mid: 48,
+      high: 99
     },
     tags: [
       "doga_dag",
@@ -2245,14 +2245,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 54,
-      mid: 108,
-      high: 203
+      low: 81,
+      mid: 162,
+      high: 305
     },
     dailyAccommodation: {
-      low: 41,
-      mid: 81,
-      high: 169
+      low: 62,
+      mid: 122,
+      high: 254
     },
     tags: [
       "deniz_plaj",
@@ -2282,14 +2282,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 62,
-      high: 116
+      low: 47,
+      mid: 93,
+      high: 174
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 46,
-      high: 97
+      low: 35,
+      mid: 69,
+      high: 146
     },
     tags: [
       "deniz_plaj",
@@ -2319,14 +2319,14 @@ export const countries = [
     allowedDaysNote: "45 days",
     eVisaFee: 800,
     dailyCost: {
-      low: 28,
-      mid: 56,
-      high: 105
+      low: 42,
+      mid: 84,
+      high: 158
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 42,
-      high: 88
+      low: 32,
+      mid: 63,
+      high: 132
     },
     tags: [
       "deniz_plaj",
@@ -2354,14 +2354,14 @@ export const countries = [
     allowedDaysNote: "Kapıda vize ile 30 gün",
     eVisaFee: 1000,
     dailyCost: {
-      low: 36,
-      mid: 73,
-      high: 137
+      low: 54,
+      mid: 110,
+      high: 206
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 55,
-      high: 114
+      low: 41,
+      mid: 83,
+      high: 171
     },
     tags: [
       "deniz_plaj",
@@ -2391,14 +2391,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 1500,
     dailyCost: {
-      low: 30,
-      mid: 60,
-      high: 113
+      low: 45,
+      mid: 90,
+      high: 170
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 45,
-      high: 94
+      low: 35,
+      mid: 68,
+      high: 141
     },
     tags: [
       "deniz_plaj",
@@ -2427,14 +2427,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 1500,
     dailyCost: {
-      low: 21,
-      mid: 41,
-      high: 77
+      low: 32,
+      mid: 62,
+      high: 116
     },
     dailyAccommodation: {
-      low: 15,
-      mid: 31,
-      high: 65
+      low: 23,
+      mid: 47,
+      high: 98
     },
     tags: [
       "doga_dag",
@@ -2464,14 +2464,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 1500,
     dailyCost: {
-      low: 22,
-      mid: 44,
-      high: 82
+      low: 33,
+      mid: 66,
+      high: 123
     },
     dailyAccommodation: {
-      low: 16,
-      mid: 33,
-      high: 68
+      low: 24,
+      mid: 50,
+      high: 102
     },
     tags: [
       "doga_dag",
@@ -2501,14 +2501,14 @@ export const countries = [
     allowedDaysNote: "120 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 33,
-      mid: 65,
-      high: 123
+      low: 50,
+      mid: 98,
+      high: 185
     },
     dailyAccommodation: {
-      low: 25,
-      mid: 49,
-      high: 102
+      low: 38,
+      mid: 74,
+      high: 153
     },
     tags: [
       "sehir_kultur",
@@ -2539,14 +2539,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 900,
     dailyCost: {
-      low: 32,
-      mid: 64,
-      high: 120
+      low: 48,
+      mid: 96,
+      high: 180
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 100
+      low: 36,
+      mid: 72,
+      high: 150
     },
     tags: [
       "deniz_plaj",
@@ -2574,14 +2574,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -2609,14 +2609,14 @@ export const countries = [
     allowedDaysNote: "Varışta ücretsiz vize ile 30 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -2642,14 +2642,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -2677,14 +2677,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -2713,14 +2713,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "deniz_plaj",
@@ -2747,14 +2747,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 1100,
     dailyCost: {
-      low: 25,
-      mid: 50,
-      high: 94
+      low: 38,
+      mid: 75,
+      high: 141
     },
     dailyAccommodation: {
-      low: 19,
-      mid: 38,
-      high: 78
+      low: 29,
+      mid: 57,
+      high: 117
     },
     tags: [
       "deniz_plaj",
@@ -2787,14 +2787,14 @@ export const countries = [
     allowedDaysNote: "e-Vize ile 30 gün (çift giriş)",
     eVisaFee: 850,
     dailyCost: {
-      low: 14,
-      mid: 29,
-      high: 54
+      low: 21,
+      mid: 44,
+      high: 81
     },
     dailyAccommodation: {
-      low: 11,
-      mid: 22,
-      high: 45
+      low: 17,
+      mid: 33,
+      high: 68
     },
     tags: [
       "sehir_kultur",
@@ -2828,14 +2828,14 @@ export const countries = [
     allowedDaysNote: "ETA (e-Vize) ile 90 gün",
     eVisaFee: 700,
     dailyCost: {
-      low: 57,
-      mid: 114,
-      high: 214
+      low: 86,
+      mid: 171,
+      high: 321
     },
     dailyAccommodation: {
-      low: 43,
-      mid: 86,
-      high: 179
+      low: 65,
+      mid: 129,
+      high: 269
     },
     tags: [
       "doga_dag",
@@ -2867,14 +2867,14 @@ export const countries = [
     allowedDaysNote: "180 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 36,
-      mid: 71,
-      high: 133
+      low: 54,
+      mid: 107,
+      high: 200
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 53,
-      high: 111
+      low: 41,
+      mid: 80,
+      high: 167
     },
     tags: [
       "sehir_kultur",
@@ -2907,14 +2907,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 1500,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 87
+      low: 35,
+      mid: 69,
+      high: 131
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 35,
-      high: 72
+      low: 26,
+      mid: 53,
+      high: 108
     },
     tags: [
       "doga_dag",
@@ -2944,14 +2944,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 1600,
     dailyCost: {
-      low: 32,
-      mid: 65,
-      high: 121
+      low: 48,
+      mid: 98,
+      high: 182
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 101
+      low: 36,
+      mid: 72,
+      high: 152
     },
     tags: [
       "sehir_kultur",
@@ -2981,14 +2981,14 @@ export const countries = [
     allowedDaysNote: "28 days",
     eVisaFee: 1500,
     dailyCost: {
-      low: 30,
-      mid: 60,
-      high: 113
+      low: 45,
+      mid: 90,
+      high: 170
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 45,
-      high: 94
+      low: 35,
+      mid: 68,
+      high: 141
     },
     tags: [
       "sehir_kultur",
@@ -3018,14 +3018,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 500,
     dailyCost: {
-      low: 16,
-      mid: 32,
-      high: 61
+      low: 24,
+      mid: 48,
+      high: 92
     },
     dailyAccommodation: {
-      low: 12,
-      mid: 24,
-      high: 51
+      low: 18,
+      mid: 36,
+      high: 77
     },
     tags: [
       "doga_dag",
@@ -3056,14 +3056,14 @@ export const countries = [
     allowedDaysNote: "e-Vize ile 30 gün (tek giriş)",
     eVisaFee: 850,
     dailyCost: {
-      low: 22,
-      mid: 43,
-      high: 81
+      low: 33,
+      mid: 65,
+      high: 122
     },
     dailyAccommodation: {
-      low: 16,
-      mid: 32,
-      high: 67
+      low: 24,
+      mid: 48,
+      high: 101
     },
     tags: [
       "yemek_gastronomi",
@@ -3096,14 +3096,14 @@ export const countries = [
     allowedDaysNote: "14 days",
     eVisaFee: 400,
     dailyCost: {
-      low: 37,
-      mid: 75,
-      high: 140
+      low: 56,
+      mid: 113,
+      high: 210
     },
     dailyAccommodation: {
-      low: 28,
-      mid: 56,
-      high: 117
+      low: 42,
+      mid: 84,
+      high: 176
     },
     tags: [
       "sehir_kultur",
@@ -3131,14 +3131,14 @@ export const countries = [
     allowedDaysNote: "e-Vize ile 30 gün (tek veya çoklu giriş)",
     eVisaFee: 850,
     dailyCost: {
-      low: 17,
-      mid: 34,
-      high: 65
+      low: 26,
+      mid: 51,
+      high: 98
     },
     dailyAccommodation: {
-      low: 13,
-      mid: 26,
-      high: 54
+      low: 20,
+      mid: 39,
+      high: 81
     },
     tags: [
       "sehir_kultur",
@@ -3170,14 +3170,14 @@ export const countries = [
     allowedDaysNote: "e-Vize ile 45 gün",
     eVisaFee: 500,
     dailyCost: {
-      low: 22,
-      mid: 45,
-      high: 84
+      low: 33,
+      mid: 68,
+      high: 126
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 34,
-      high: 70
+      low: 26,
+      mid: 51,
+      high: 105
     },
     tags: [
       "doga_dag",
@@ -3206,14 +3206,14 @@ export const countries = [
     allowedDaysNote: "B1/B2 vizesi ile 180 güne kadar",
     eVisaFee: 0,
     dailyCost: {
-      low: 56,
-      mid: 112,
-      high: 209
+      low: 84,
+      mid: 168,
+      high: 314
     },
     dailyAccommodation: {
-      low: 42,
-      mid: 84,
-      high: 174
+      low: 63,
+      mid: 126,
+      high: 261
     },
     tags: [
       "sehir_kultur",
@@ -3246,14 +3246,14 @@ export const countries = [
     allowedDaysNote: "Standard Visitor vizesi ile 6 ay",
     eVisaFee: 0,
     dailyCost: {
-      low: 55,
-      mid: 109,
-      high: 205
+      low: 83,
+      mid: 164,
+      high: 308
     },
     dailyAccommodation: {
-      low: 41,
-      mid: 82,
-      high: 171
+      low: 62,
+      mid: 123,
+      high: 257
     },
     tags: [
       "sehir_kultur",
@@ -3285,14 +3285,14 @@ export const countries = [
     allowedDaysNote: "Turist vizesi ile 6 aya kadar",
     eVisaFee: 0,
     dailyCost: {
-      low: 49,
-      mid: 98,
-      high: 184
+      low: 74,
+      mid: 147,
+      high: 276
     },
     dailyAccommodation: {
-      low: 37,
-      mid: 74,
-      high: 153
+      low: 56,
+      mid: 111,
+      high: 230
     },
     tags: [
       "doga_dag",
@@ -3324,14 +3324,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 54,
-      mid: 109,
-      high: 204
+      low: 81,
+      mid: 164,
+      high: 306
     },
     dailyAccommodation: {
-      low: 41,
-      mid: 82,
-      high: 170
+      low: 62,
+      mid: 123,
+      high: 255
     },
     tags: [
       "sehir_kultur",
@@ -3363,14 +3363,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 54,
-      mid: 107,
-      high: 201
+      low: 81,
+      mid: 161,
+      high: 302
     },
     dailyAccommodation: {
-      low: 40,
-      mid: 80,
-      high: 167
+      low: 60,
+      mid: 120,
+      high: 251
     },
     tags: [
       "sehir_kultur",
@@ -3402,14 +3402,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 49,
-      mid: 98,
-      high: 184
+      low: 74,
+      mid: 147,
+      high: 276
     },
     dailyAccommodation: {
-      low: 37,
-      mid: 74,
-      high: 153
+      low: 56,
+      mid: 111,
+      high: 230
     },
     tags: [
       "sehir_kultur",
@@ -3442,14 +3442,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 41,
-      mid: 82,
-      high: 154
+      low: 62,
+      mid: 123,
+      high: 231
     },
     dailyAccommodation: {
-      low: 31,
-      mid: 62,
-      high: 129
+      low: 47,
+      mid: 93,
+      high: 194
     },
     tags: [
       "sehir_kultur",
@@ -3481,14 +3481,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 58,
-      mid: 117,
-      high: 219
+      low: 87,
+      mid: 176,
+      high: 329
     },
     dailyAccommodation: {
-      low: 44,
-      mid: 88,
-      high: 183
+      low: 66,
+      mid: 132,
+      high: 275
     },
     tags: [
       "sehir_kultur",
@@ -3518,14 +3518,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 63,
-      high: 118
+      low: 47,
+      mid: 95,
+      high: 177
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 47,
-      high: 98
+      low: 36,
+      mid: 71,
+      high: 147
     },
     tags: [
       "sehir_kultur",
@@ -3555,14 +3555,14 @@ export const countries = [
     allowedDaysNote: "Turist vizesi ile 30 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 25,
-      mid: 49,
-      high: 92
+      low: 38,
+      mid: 74,
+      high: 138
     },
     dailyAccommodation: {
-      low: 18,
-      mid: 37,
-      high: 77
+      low: 27,
+      mid: 56,
+      high: 116
     },
     tags: [
       "sehir_kultur",
@@ -3594,14 +3594,14 @@ export const countries = [
     allowedDaysNote: "Visitor vizesi ile 9 aya kadar",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 96,
-      high: 181
+      low: 72,
+      mid: 144,
+      high: 272
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 72,
-      high: 151
+      low: 54,
+      mid: 108,
+      high: 227
     },
     tags: [
       "doga_dag",
@@ -3632,14 +3632,14 @@ export const countries = [
     allowedDaysNote: "Short-stay vizesi ile 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 57,
-      mid: 113,
-      high: 212
+      low: 86,
+      mid: 170,
+      high: 318
     },
     dailyAccommodation: {
-      low: 42,
-      mid: 85,
-      high: 177
+      low: 63,
+      mid: 128,
+      high: 266
     },
     tags: [
       "sehir_kultur",
@@ -3670,14 +3670,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 88,
-      mid: 176,
-      high: 329
+      low: 132,
+      mid: 264,
+      high: 494
     },
     dailyAccommodation: {
-      low: 66,
-      mid: 132,
-      high: 274
+      low: 99,
+      mid: 198,
+      high: 411
     },
     tags: [
       "doga_dag",
@@ -3709,14 +3709,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 68,
-      mid: 137,
-      high: 257
+      low: 102,
+      mid: 206,
+      high: 386
     },
     dailyAccommodation: {
-      low: 51,
-      mid: 103,
-      high: 214
+      low: 77,
+      mid: 155,
+      high: 321
     },
     tags: [
       "doga_dag",
@@ -3746,14 +3746,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 52,
-      mid: 105,
-      high: 197
+      low: 78,
+      mid: 158,
+      high: 296
     },
     dailyAccommodation: {
-      low: 39,
-      mid: 79,
-      high: 164
+      low: 59,
+      mid: 119,
+      high: 246
     },
     tags: [
       "sehir_kultur",
@@ -3783,14 +3783,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 63,
-      mid: 126,
-      high: 236
+      low: 95,
+      mid: 189,
+      high: 354
     },
     dailyAccommodation: {
-      low: 47,
-      mid: 94,
-      high: 196
+      low: 71,
+      mid: 141,
+      high: 294
     },
     tags: [
       "sehir_kultur",
@@ -3819,14 +3819,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 55,
-      mid: 110,
-      high: 206
+      low: 83,
+      mid: 165,
+      high: 309
     },
     dailyAccommodation: {
-      low: 41,
-      mid: 82,
-      high: 171
+      low: 62,
+      mid: 123,
+      high: 257
     },
     tags: [
       "doga_dag",
@@ -3857,14 +3857,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 55,
-      mid: 109,
-      high: 205
+      low: 83,
+      mid: 164,
+      high: 308
     },
     dailyAccommodation: {
-      low: 41,
-      mid: 82,
-      high: 171
+      low: 62,
+      mid: 123,
+      high: 257
     },
     tags: [
       "sehir_kultur",
@@ -3894,14 +3894,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 57,
-      mid: 113,
-      high: 212
+      low: 86,
+      mid: 170,
+      high: 318
     },
     dailyAccommodation: {
-      low: 42,
-      mid: 85,
-      high: 177
+      low: 63,
+      mid: 128,
+      high: 266
     },
     tags: [
       "sehir_kultur",
@@ -3932,14 +3932,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 39,
-      mid: 78,
-      high: 146
+      low: 59,
+      mid: 117,
+      high: 219
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 58,
-      high: 122
+      low: 44,
+      mid: 87,
+      high: 183
     },
     tags: [
       "sehir_kultur",
@@ -3971,14 +3971,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 43,
-      mid: 85,
-      high: 160
+      low: 65,
+      mid: 128,
+      high: 240
     },
     dailyAccommodation: {
-      low: 32,
-      mid: 64,
-      high: 133
+      low: 48,
+      mid: 96,
+      high: 200
     },
     tags: [
       "deniz_plaj",
@@ -4010,14 +4010,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 37,
-      mid: 74,
-      high: 139
+      low: 56,
+      mid: 111,
+      high: 209
     },
     dailyAccommodation: {
-      low: 28,
-      mid: 55,
-      high: 116
+      low: 42,
+      mid: 83,
+      high: 174
     },
     tags: [
       "sehir_kultur",
@@ -4048,14 +4048,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 42,
-      mid: 83,
-      high: 156
+      low: 63,
+      mid: 125,
+      high: 234
     },
     dailyAccommodation: {
-      low: 31,
-      mid: 62,
-      high: 130
+      low: 47,
+      mid: 93,
+      high: 195
     },
     tags: [
       "sehir_kultur",
@@ -4085,14 +4085,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 149
+      low: 60,
+      mid: 120,
+      high: 224
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur",
@@ -4123,14 +4123,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 32,
-      mid: 63,
-      high: 119
+      low: 48,
+      mid: 95,
+      high: 179
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 47,
-      high: 99
+      low: 36,
+      mid: 71,
+      high: 149
     },
     tags: [
       "sehir_kultur",
@@ -4162,14 +4162,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 34,
-      mid: 67,
-      high: 126
+      low: 51,
+      mid: 101,
+      high: 189
     },
     dailyAccommodation: {
-      low: 25,
-      mid: 50,
-      high: 105
+      low: 38,
+      mid: 75,
+      high: 158
     },
     tags: [
       "deniz_plaj",
@@ -4201,14 +4201,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 41,
-      mid: 82,
-      high: 154
+      low: 62,
+      mid: 123,
+      high: 231
     },
     dailyAccommodation: {
-      low: 31,
-      mid: 62,
-      high: 128
+      low: 47,
+      mid: 93,
+      high: 192
     },
     tags: [
       "deniz_plaj",
@@ -4240,14 +4240,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 43,
-      mid: 85,
-      high: 160
+      low: 65,
+      mid: 128,
+      high: 240
     },
     dailyAccommodation: {
-      low: 32,
-      mid: 64,
-      high: 133
+      low: 48,
+      mid: 96,
+      high: 200
     },
     tags: [
       "doga_dag",
@@ -4278,14 +4278,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 39,
-      mid: 78,
-      high: 146
+      low: 59,
+      mid: 117,
+      high: 219
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 58,
-      high: 121
+      low: 44,
+      mid: 87,
+      high: 182
     },
     tags: [
       "sehir_kultur",
@@ -4314,14 +4314,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 151
+      low: 60,
+      mid: 120,
+      high: 227
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 126
+      low: 45,
+      mid: 90,
+      high: 189
     },
     tags: [
       "sehir_kultur",
@@ -4351,14 +4351,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 41,
-      mid: 82,
-      high: 154
+      low: 62,
+      mid: 123,
+      high: 231
     },
     dailyAccommodation: {
-      low: 31,
-      mid: 62,
-      high: 128
+      low: 47,
+      mid: 93,
+      high: 192
     },
     tags: [
       "sehir_kultur",
@@ -4387,14 +4387,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 95,
-      high: 178
+      low: 72,
+      mid: 143,
+      high: 267
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 71,
-      high: 149
+      low: 54,
+      mid: 107,
+      high: 224
     },
     tags: [
       "sehir_kultur",
@@ -4423,14 +4423,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 78,
-      mid: 156,
-      high: 293
+      low: 117,
+      mid: 234,
+      high: 440
     },
     dailyAccommodation: {
-      low: 59,
-      mid: 117,
-      high: 244
+      low: 89,
+      mid: 176,
+      high: 366
     },
     tags: [
       "doga_dag",
@@ -4460,14 +4460,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 63,
-      mid: 126,
-      high: 236
+      low: 95,
+      mid: 189,
+      high: 354
     },
     dailyAccommodation: {
-      low: 47,
-      mid: 94,
-      high: 196
+      low: 71,
+      mid: 141,
+      high: 294
     },
     tags: [
       "sehir_kultur",
@@ -4496,14 +4496,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 46,
-      mid: 91,
-      high: 171
+      low: 69,
+      mid: 137,
+      high: 257
     },
     dailyAccommodation: {
-      low: 34,
-      mid: 68,
-      high: 142
+      low: 51,
+      mid: 102,
+      high: 213
     },
     tags: [
       "deniz_plaj",
@@ -4533,14 +4533,14 @@ export const countries = [
     allowedDaysNote: "Ulusal vize gerekli (Schengen kapsamında değil)",
     eVisaFee: 0,
     dailyCost: {
-      low: 46,
-      mid: 92,
-      high: 172
+      low: 69,
+      mid: 138,
+      high: 258
     },
     dailyAccommodation: {
-      low: 34,
-      mid: 69,
-      high: 144
+      low: 51,
+      mid: 104,
+      high: 216
     },
     tags: [
       "deniz_plaj",
@@ -4571,14 +4571,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile 180 gün içinde 90 gün",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 96,
-      high: 180
+      low: 72,
+      mid: 144,
+      high: 270
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 72,
-      high: 150
+      low: 54,
+      mid: 108,
+      high: 225
     },
     tags: [
       "doga_dag",
@@ -4606,14 +4606,14 @@ export const countries = [
     allowedDaysNote: "Schengen vizesi ile giriş (Fransa üzerinden)",
     eVisaFee: 0,
     dailyCost: {
-      low: 48,
-      mid: 96,
-      high: 180
+      low: 72,
+      mid: 144,
+      high: 270
     },
     dailyAccommodation: {
-      low: 36,
-      mid: 72,
-      high: 150
+      low: 54,
+      mid: 108,
+      high: 225
     },
     tags: [
       "sehir_kultur",
@@ -4640,14 +4640,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4671,14 +4671,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 63,
-      high: 118
+      low: 47,
+      mid: 95,
+      high: 177
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 47,
-      high: 98
+      low: 36,
+      mid: 71,
+      high: 147
     },
     tags: [
       "sehir_kultur"
@@ -4702,14 +4702,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4733,14 +4733,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4764,14 +4764,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 39,
-      mid: 79,
-      high: 147
+      low: 59,
+      mid: 119,
+      high: 221
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 59,
-      high: 123
+      low: 44,
+      mid: 89,
+      high: 185
     },
     tags: [
       "sehir_kultur"
@@ -4795,14 +4795,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4826,14 +4826,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4857,14 +4857,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 34,
-      mid: 67,
-      high: 126
+      low: 51,
+      mid: 101,
+      high: 189
     },
     dailyAccommodation: {
-      low: 25,
-      mid: 51,
-      high: 105
+      low: 38,
+      mid: 77,
+      high: 158
     },
     tags: [
       "sehir_kultur"
@@ -4888,14 +4888,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4919,14 +4919,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4950,14 +4950,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -4981,14 +4981,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5012,14 +5012,14 @@ export const countries = [
     allowedDaysNote: "4 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 29,
-      mid: 57,
-      high: 107
+      low: 44,
+      mid: 86,
+      high: 161
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 43,
-      high: 90
+      low: 32,
+      mid: 65,
+      high: 135
     },
     tags: [
       "sehir_kultur"
@@ -5043,14 +5043,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5074,14 +5074,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5105,14 +5105,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5136,14 +5136,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5167,14 +5167,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 30,
-      mid: 61,
-      high: 114
+      low: 45,
+      mid: 92,
+      high: 171
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 46,
-      high: 95
+      low: 35,
+      mid: 69,
+      high: 143
     },
     tags: [
       "sehir_kultur"
@@ -5198,14 +5198,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5229,14 +5229,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5260,14 +5260,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5291,14 +5291,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 42,
-      mid: 85,
-      high: 159
+      low: 63,
+      mid: 128,
+      high: 239
     },
     dailyAccommodation: {
-      low: 32,
-      mid: 64,
-      high: 133
+      low: 48,
+      mid: 96,
+      high: 200
     },
     tags: [
       "sehir_kultur"
@@ -5322,14 +5322,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 23,
-      mid: 46,
-      high: 86
+      low: 35,
+      mid: 69,
+      high: 129
     },
     dailyAccommodation: {
-      low: 17,
-      mid: 34,
-      high: 72
+      low: 26,
+      mid: 51,
+      high: 108
     },
     tags: [
       "sehir_kultur"
@@ -5353,14 +5353,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 72,
-      mid: 143,
-      high: 269
+      low: 108,
+      mid: 215,
+      high: 404
     },
     dailyAccommodation: {
-      low: 54,
-      mid: 108,
-      high: 224
+      low: 81,
+      mid: 162,
+      high: 336
     },
     tags: [
       "sehir_kultur"
@@ -5384,14 +5384,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5415,14 +5415,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5446,14 +5446,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5477,14 +5477,14 @@ export const countries = [
     allowedDaysNote: "3 months",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5508,14 +5508,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 16,
-      mid: 31,
-      high: 58
+      low: 24,
+      mid: 47,
+      high: 87
     },
     dailyAccommodation: {
-      low: 12,
-      mid: 23,
-      high: 48
+      low: 18,
+      mid: 35,
+      high: 72
     },
     tags: [
       "sehir_kultur"
@@ -5539,14 +5539,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5570,14 +5570,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5601,14 +5601,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5632,14 +5632,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 55,
-      high: 103
+      low: 42,
+      mid: 83,
+      high: 155
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 41,
-      high: 86
+      low: 32,
+      mid: 62,
+      high: 129
     },
     tags: [
       "sehir_kultur"
@@ -5663,14 +5663,14 @@ export const countries = [
     allowedDaysNote: "3 months / 90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 30,
-      mid: 61,
-      high: 114
+      low: 45,
+      mid: 92,
+      high: 171
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 46,
-      high: 95
+      low: 35,
+      mid: 69,
+      high: 143
     },
     tags: [
       "sehir_kultur"
@@ -5694,14 +5694,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5725,14 +5725,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5756,14 +5756,14 @@ export const countries = [
     allowedDaysNote: "120 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5787,14 +5787,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5818,14 +5818,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 16,
-      mid: 32,
-      high: 61
+      low: 24,
+      mid: 48,
+      high: 92
     },
     dailyAccommodation: {
-      low: 12,
-      mid: 24,
-      high: 50
+      low: 18,
+      mid: 36,
+      high: 75
     },
     tags: [
       "sehir_kultur"
@@ -5849,14 +5849,14 @@ export const countries = [
     allowedDaysNote: "60 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 38,
-      mid: 77,
-      high: 144
+      low: 57,
+      mid: 116,
+      high: 216
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 57,
-      high: 120
+      low: 44,
+      mid: 86,
+      high: 180
     },
     tags: [
       "sehir_kultur"
@@ -5880,14 +5880,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5911,14 +5911,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 52,
-      mid: 104,
-      high: 195
+      low: 78,
+      mid: 156,
+      high: 293
     },
     dailyAccommodation: {
-      low: 39,
-      mid: 78,
-      high: 163
+      low: 59,
+      mid: 117,
+      high: 245
     },
     tags: [
       "sehir_kultur"
@@ -5942,14 +5942,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -5973,14 +5973,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6004,14 +6004,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6035,14 +6035,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6066,14 +6066,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6097,14 +6097,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 36,
-      mid: 73,
-      high: 136
+      low: 54,
+      mid: 110,
+      high: 204
     },
     dailyAccommodation: {
-      low: 27,
-      mid: 54,
-      high: 113
+      low: 41,
+      mid: 81,
+      high: 170
     },
     tags: [
       "sehir_kultur"
@@ -6128,14 +6128,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 81,
-      high: 151
+      low: 60,
+      mid: 122,
+      high: 227
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 126
+      low: 45,
+      mid: 90,
+      high: 189
     },
     tags: [
       "sehir_kultur"
@@ -6159,14 +6159,14 @@ export const countries = [
     allowedDaysNote: "3 months / 30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6190,14 +6190,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6221,14 +6221,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 56,
-      high: 106
+      low: 42,
+      mid: 84,
+      high: 159
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 42,
-      high: 88
+      low: 32,
+      mid: 63,
+      high: 132
     },
     tags: [
       "sehir_kultur"
@@ -6252,14 +6252,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6283,14 +6283,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6314,14 +6314,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6345,14 +6345,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 35,
-      mid: 69,
-      high: 130
+      low: 53,
+      mid: 104,
+      high: 195
     },
     dailyAccommodation: {
-      low: 26,
-      mid: 52,
-      high: 109
+      low: 39,
+      mid: 78,
+      high: 164
     },
     tags: [
       "sehir_kultur"
@@ -6376,14 +6376,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6407,14 +6407,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 21,
-      mid: 43,
-      high: 80
+      low: 32,
+      mid: 65,
+      high: 120
     },
     dailyAccommodation: {
-      low: 16,
-      mid: 32,
-      high: 67
+      low: 24,
+      mid: 48,
+      high: 101
     },
     tags: [
       "sehir_kultur"
@@ -6438,14 +6438,14 @@ export const countries = [
     allowedDaysNote: "15 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6469,14 +6469,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6500,14 +6500,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 44,
-      mid: 89,
-      high: 167
+      low: 66,
+      mid: 134,
+      high: 251
     },
     dailyAccommodation: {
-      low: 33,
-      mid: 67,
-      high: 139
+      low: 50,
+      mid: 101,
+      high: 209
     },
     tags: [
       "sehir_kultur"
@@ -6531,14 +6531,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 81,
-      mid: 163,
-      high: 305
+      low: 122,
+      mid: 245,
+      high: 458
     },
     dailyAccommodation: {
-      low: 61,
-      mid: 122,
-      high: 254
+      low: 92,
+      mid: 183,
+      high: 381
     },
     tags: [
       "sehir_kultur"
@@ -6562,14 +6562,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6593,14 +6593,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 31,
-      mid: 62,
-      high: 117
+      low: 47,
+      mid: 93,
+      high: 176
     },
     dailyAccommodation: {
-      low: 23,
-      mid: 47,
-      high: 97
+      low: 35,
+      mid: 71,
+      high: 146
     },
     tags: [
       "sehir_kultur"
@@ -6624,14 +6624,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 46,
-      mid: 91,
-      high: 171
+      low: 69,
+      mid: 137,
+      high: 257
     },
     dailyAccommodation: {
-      low: 34,
-      mid: 69,
-      high: 143
+      low: 51,
+      mid: 104,
+      high: 215
     },
     tags: [
       "sehir_kultur"
@@ -6655,14 +6655,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 32,
-      mid: 64,
-      high: 119
+      low: 48,
+      mid: 96,
+      high: 179
     },
     dailyAccommodation: {
-      low: 24,
-      mid: 48,
-      high: 99
+      low: 36,
+      mid: 72,
+      high: 149
     },
     tags: [
       "sehir_kultur"
@@ -6686,14 +6686,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 17,
-      mid: 35,
-      high: 65
+      low: 26,
+      mid: 53,
+      high: 98
     },
     dailyAccommodation: {
-      low: 13,
-      mid: 26,
-      high: 54
+      low: 20,
+      mid: 39,
+      high: 81
     },
     tags: [
       "sehir_kultur"
@@ -6717,14 +6717,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 22,
-      mid: 43,
-      high: 81
+      low: 33,
+      mid: 65,
+      high: 122
     },
     dailyAccommodation: {
-      low: 16,
-      mid: 32,
-      high: 67
+      low: 24,
+      mid: 48,
+      high: 101
     },
     tags: [
       "sehir_kultur"
@@ -6748,14 +6748,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6779,14 +6779,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 28,
-      mid: 57,
-      high: 107
+      low: 42,
+      mid: 86,
+      high: 161
     },
     dailyAccommodation: {
-      low: 21,
-      mid: 43,
-      high: 89
+      low: 32,
+      mid: 65,
+      high: 134
     },
     tags: [
       "sehir_kultur"
@@ -6810,14 +6810,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6841,14 +6841,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 18,
-      mid: 36,
-      high: 68
+      low: 27,
+      mid: 54,
+      high: 102
     },
     dailyAccommodation: {
-      low: 14,
-      mid: 27,
-      high: 57
+      low: 21,
+      mid: 41,
+      high: 86
     },
     tags: [
       "sehir_kultur"
@@ -6872,14 +6872,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6903,14 +6903,14 @@ export const countries = [
     allowedDaysNote: "90 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6934,14 +6934,14 @@ export const countries = [
     allowedDaysNote: "Vize gerekli",
     eVisaFee: 0,
     dailyCost: {
-      low: 40,
-      mid: 80,
-      high: 150
+      low: 60,
+      mid: 120,
+      high: 225
     },
     dailyAccommodation: {
-      low: 30,
-      mid: 60,
-      high: 125
+      low: 45,
+      mid: 90,
+      high: 188
     },
     tags: [
       "sehir_kultur"
@@ -6965,14 +6965,14 @@ export const countries = [
     allowedDaysNote: "30 days",
     eVisaFee: 0,
     dailyCost: {
-      low: 39,
-      mid: 78,
-      high: 147
+      low: 59,
+      mid: 117,
+      high: 221
     },
     dailyAccommodation: {
-      low: 29,
-      mid: 59,
-      high: 123
+      low: 44,
+      mid: 89,
+      high: 185
     },
     tags: [
       "sehir_kultur"
