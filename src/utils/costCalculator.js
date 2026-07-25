@@ -2,7 +2,7 @@
 import { getFlightPrice } from '../data/flightPrices';
 
 export function calculateTripCost(country, departureCity, days, budgetLevel) {
-  const level = budgetLevel === "minimal" ? "low" : budgetLevel === "local" ? "mid" : "high";
+  const level = budgetLevel === "local" ? "mid" : "high";
   
   const flight = getFlightPrice(departureCity, country.id, budgetLevel);
   const accommodation = days * (country.dailyAccommodation?.[level] || 400);
@@ -34,7 +34,7 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
   let accommodation = 0;
   let living = 0;
   let visa = 0;
-  const level = budgetLevel === "minimal" ? "low" : budgetLevel === "local" ? "mid" : "high";
+  const level = budgetLevel === "local" ? "mid" : "high";
   
   clusterCountries.forEach((c, i) => {
     const countryDays = daysPerCountry + (i === 0 ? extraDays : 0);
@@ -60,7 +60,6 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
 
 // Bütçe aralıkları (USD)
 export const BUDGET_RANGES = {
-  minimal: { min: 0, max: 1500, label: "Minimal" },
-  local: { min: 1500, max: 3000, label: "Local" },
-  gezgin: { min: 3000, max: Infinity, label: "Gezgin" },
+  local: { min: 0, max: 2000, label: "Local" },
+  gezgin: { min: 2000, max: Infinity, label: "Gezgin" },
 };

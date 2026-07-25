@@ -2,13 +2,6 @@ import './StepBudget.css'
 
 const BUDGET_OPTIONS = [
   {
-    id: 'minimal',
-    emoji: '🎒',
-    title: 'Minimal',
-    desc: 'Hostel, toplu taşıma, sokak lezzetleri',
-    color: 'var(--visa-free)',
-  },
-  {
     id: 'local',
     emoji: '🏘️',
     title: 'Local',

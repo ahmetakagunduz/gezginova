@@ -81,10 +81,9 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
   // 4. En iyi tekli rotalar
   const topSingle = scored.slice(0, count);
 
-  // 5. Küme rotaları (gezgin ve local bütçe)
+  // 5. Küme rotaları (Local ve Gezgin bütçe için)
   const clusterRoutes = [];
-  if (budgetLevel !== 'minimal') {
-    for (const cluster of clusters) {
+  for (const cluster of clusters) {
       const clusterCountries = countryList.filter(c => cluster.countries.includes(c.id));
       const eligibleCluster = filterByVisa(clusterCountries, visaPreference);
       
@@ -111,7 +110,6 @@ export function getTopRoutes(countryList, preferences, flightPricesData, count =
       }
     }
     clusterRoutes.sort((a, b) => b.score - a.score);
-  }
 
   return {
     single: topSingle,
