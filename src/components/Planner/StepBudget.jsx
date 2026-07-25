@@ -2,27 +2,24 @@ import './StepBudget.css'
 
 const BUDGET_OPTIONS = [
   {
-    id: 'dusuk',
-    emoji: '💚',
-    title: 'Düşük',
-    range: '0 – 15.000 ₺',
-    desc: 'Hostel & sokak lezzetleri',
+    id: 'minimal',
+    emoji: '🎒',
+    title: 'Minimal',
+    desc: 'Hostel, toplu taşıma, sokak lezzetleri',
     color: 'var(--visa-free)',
   },
   {
-    id: 'orta',
-    emoji: '💛',
-    title: 'Orta',
-    range: '15.000 – 35.000 ₺',
-    desc: 'Butik otel & restoran',
+    id: 'gezgin',
+    emoji: '🧭',
+    title: 'Gezgin',
+    desc: 'Butik otel, konforlu seyahat, restoranlar',
     color: 'var(--accent-amber)',
   },
   {
-    id: 'yuksek',
-    emoji: '🧡',
-    title: 'Yüksek',
-    range: '35.000 ₺ üzeri',
-    desc: '5 yıldız & fine dining',
+    id: 'local',
+    emoji: '💎',
+    title: 'Local',
+    desc: 'Özel deneyimler, lüks konaklama, fine dining',
     color: 'var(--accent-pink)',
   },
 ]
@@ -47,7 +44,6 @@ export default function StepBudget({ value, onChange }) {
           >
             <span className="budget-emoji">{opt.emoji}</span>
             <h3 className="budget-title">{opt.title}</h3>
-            <span className="budget-range">{opt.range}</span>
             <span className="budget-desc">{opt.desc}</span>
           </button>
         ))}
