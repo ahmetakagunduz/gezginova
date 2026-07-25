@@ -16,9 +16,9 @@ const VISA_META = {
  * Budget tier labels.
  */
 const BUDGET_TIERS = [
-  { key: 'low',    label: 'Düşük',   icon: '💰' },
-  { key: 'mid',    label: 'Orta',    icon: '💳' },
-  { key: 'high',   label: 'Yüksek',  icon: '💎' },
+  { key: 'low',    label: 'Minimal',   icon: '🎒' },
+  { key: 'mid',    label: 'Gezgin',    icon: '🧭' },
+  { key: 'high',   label: 'Local',     icon: '💎' },
 ];
 
 /**
@@ -29,7 +29,22 @@ const BUDGET_TIERS = [
  * @param {Function} onClose        – Callback to close the panel
  * @param {Function} onAddTrip      – Callback to add this country to trips
  */
+import { useState, useEffect } from 'react';
+
 export default function CountryPanel({ country, stats, isOpen, onClose, onAddTrip }) {
+  const [exchangeRate, setExchangeRate] = useState(35);
+
+  useEffect(() => {
+    fetch('/api/exchange-rate')
+      .then(res => res.json())
+      .then(data => {
+        if (data && data.rate) {
+          setExchangeRate(data.rate);
+        }
+      })
+      .catch(err => console.error("Could not fetch exchange rate:", err));
+  }, []);
+
   if (!isOpen) return null;
 
   // ----------------------------------------------------
@@ -161,10 +176,10 @@ export default function CountryPanel({ country, stats, isOpen, onClose, onAddTri
                    <div key={tier.key} className={`country-panel__budget-card budget-${tier.key}`}>
                      <span className="budget-card__icon">{tier.icon}</span>
                      <span className="budget-card__label">{tier.label}</span>
-                     <span className="budget-card__amount">{total} ₺</span>
+                     <span className="budget-card__amount">{Math.round(total * exchangeRate).toLocaleString('tr-TR')} ₺</span>
                      <div className="budget-card__details">
-                       <span><Building2 size={12} /> Konaklama: {acc} ₺</span>
-                       <span><MapPin size={12} /> Harcama: {cost} ₺</span>
+                       <span><Building2 size={12} /> Konaklama: {Math.round(acc * exchangeRate).toLocaleString('tr-TR')} ₺</span>
+                       <span><MapPin size={12} /> Harcama: {Math.round(cost * exchangeRate).toLocaleString('tr-TR')} ₺</span>
                      </div>
                    </div>
                 );
