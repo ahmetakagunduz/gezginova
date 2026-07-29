@@ -173,8 +173,8 @@ export function getFlightPrice(departureCity, destinationCountryId, budgetLevel)
       const markup = departureCity === "IST" ? 1 : 1.12;
       return Math.round(istPrices[level] * markup);
     }
-    // Bilinmeyen ülke: orta mesafe tahmini
-    return level === "low" ? 5000 : level === "mid" ? 9000 : 375;
+    // Bilinmeyen ülke: orta mesafe tahmini (USD)
+    return level === "mid" ? 400 : 600;
   }
   
   return countryPrices[level];

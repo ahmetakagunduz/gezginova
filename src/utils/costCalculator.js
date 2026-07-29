@@ -2,13 +2,12 @@
 import { getFlightPrice } from '../data/flightPrices';
 
 export function calculateTripCost(country, departureCity, days, budgetLevel, dynamicFlights = null) {
-  const level = budgetLevel === "local" ? "mid" : "high";
-  
+  // budgetLevel is 'local' or 'gezgin' — used directly as key
   const flight = dynamicFlights && dynamicFlights[country.id] 
                  ? dynamicFlights[country.id] 
                  : getFlightPrice(departureCity, country.id, budgetLevel);
-  const accommodation = days * (country.dailyAccommodation?.[level] || 400);
-  const living = days * (country.dailyCost?.[level] || 300);
+  const accommodation = days * (country.dailyAccommodation?.[budgetLevel] || 30);
+  const living = days * (country.dailyCost?.[budgetLevel] || 20);
   const visa = country.visaStatus === 'e_vize' ? (country.eVisaFee || 0) : 0;
   
   return {
@@ -38,12 +37,11 @@ export function calculateClusterCost(cluster, countries, departureCity, days, bu
   let accommodation = 0;
   let living = 0;
   let visa = 0;
-  const level = budgetLevel === "local" ? "mid" : "high";
   
   clusterCountries.forEach((c, i) => {
     const countryDays = daysPerCountry + (i === 0 ? extraDays : 0);
-    accommodation += countryDays * (c.dailyAccommodation?.[level] || 400);
-    living += countryDays * (c.dailyCost?.[level] || 300);
+    accommodation += countryDays * (c.dailyAccommodation?.[budgetLevel] || 30);
+    living += countryDays * (c.dailyCost?.[budgetLevel] || 20);
     if (c.visaStatus === 'e_vize') visa += (c.eVisaFee || 0);
   });
   

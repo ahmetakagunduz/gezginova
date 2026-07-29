@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { X, MapPin, Coins, Globe, Calendar, Building2, Landmark } from 'lucide-react';
 import './CountryPanel.css';
@@ -16,8 +17,8 @@ const VISA_META = {
  * Budget tier labels.
  */
 const BUDGET_TIERS = [
-  { key: 'mid',    label: 'Local',     icon: '🏘️' },
-  { key: 'high',   label: 'Gezgin',    icon: '🧭' },
+  { key: 'local',  label: 'Local',     icon: '🏘️' },
+  { key: 'gezgin', label: 'Gezgin',    icon: '🧭' },
 ];
 
 /**
@@ -28,7 +29,7 @@ const BUDGET_TIERS = [
  * @param {Function} onClose        – Callback to close the panel
  * @param {Function} onAddTrip      – Callback to add this country to trips
  */
-import { useState, useEffect } from 'react';
+
 
 export default function CountryPanel({ country, stats, isOpen, onClose, onAddTrip }) {
   const [exchangeRate, setExchangeRate] = useState(35);

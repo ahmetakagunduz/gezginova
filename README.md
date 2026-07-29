@@ -1,16 +1,54 @@
-# React + Vite
+# 🌍 GezgiNova — Türk Gezginler için Akıllı Seyahat Planlayıcı
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**GezgiNova**, Türk pasaportu sahipleri için özel olarak tasarlanmış interaktif bir seyahat keşif ve rota planlama uygulamasıdır.
 
-Currently, two official plugins are available:
+## ✨ Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🗺️ İnteraktif Vize Haritası
+- D3 tabanlı dünya haritası üzerinde tüm ülkelerin vize durumları (Vizesiz, E-Vize, Kapıda Vize, Vize Gerekli)
+- Ülkelere tıklayarak detaylı bilgi paneli (başkent, para birimi, günlük bütçe, popüler şehirler)
 
-## React Compiler
+### 🧭 Akıllı Rota Planlayıcı
+- 5 adımlı sihirbaz: Kalkış Şehri → Seyahat Tarzı → Süre & Ay → Bütçe → Vize Tercihi
+- **Local** (yerel gibi yaşa) ve **Gezgin** (turist tarzı) olmak üzere 2 bütçe kategorisi
+- Mevsimselliğe duyarlı dinamik uçak bileti API simülasyonu
+- Tek ülke ve çoklu ülke (küme) rota önerileri
+- Gerçek zamanlı USD/TRY döviz kuru entegrasyonu
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Passport Wrapped
+- Yıllık seyahat özeti ve istatistikler
+- Rozet sistemi ve gezilen ülke takibi
+- Seyahat geçmişi yönetimi
 
-## Expanding the Oxlint configuration
+## 🛠️ Teknoloji
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Framework:** Next.js 16 (App Router)
+- **Frontend:** React 19, Lucide Icons, Recharts
+- **Harita:** react-simple-maps + D3-geo
+- **Auth:** NextAuth.js + Prisma (SQLite)
+- **Veri:** 170+ ülke, 2024-2025 güncel maliyet verileri (USD)
+
+## 🚀 Kurulum
+
+```bash
+npm install
+npx prisma generate
+npm run dev
+```
+
+## 📁 Proje Yapısı
+
+```
+app/              # Next.js App Router sayfaları ve API rotaları
+  api/flights/    # Dinamik uçak bileti fiyatlandırma API'si
+  api/exchange-rate/ # Canlı döviz kuru
+src/
+  components/     # React bileşenleri (Map, Planner, Country, Auth, Wrapped)
+  data/           # Ülke veritabanı, uçuş fiyatları, kümeler
+  utils/          # Maliyet hesaplama ve skorlama algoritmaları
+  views/          # Sayfa görünümleri
+```
+
+## 📝 Lisans
+
+MIT
