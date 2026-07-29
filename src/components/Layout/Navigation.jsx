@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Map, Route, Gift, LogIn, LogOut, X, Menu, User, Moon, Sun } from 'lucide-react';
+import { Map, Route, Gift, Calculator, LogIn, LogOut, X, Menu, User, Moon, Sun } from 'lucide-react';
 import { useAuth } from '../Auth/AuthContext';
 import { useTheme } from '../Theme/ThemeContext';
 import AuthModal from '../Auth/AuthModal';
@@ -11,6 +11,7 @@ import './Navigation.css';
 const NAV_LINKS = [
   { href: '/',        label: 'Harita',      icon: Map },
   { href: '/planner', label: 'Rota Planla', icon: Route },
+  { href: '/calculator', label: 'Hesaplayıcı', icon: Calculator },
   { href: '/wrapped', label: 'Wrapped',     icon: Gift },
 ];
 
