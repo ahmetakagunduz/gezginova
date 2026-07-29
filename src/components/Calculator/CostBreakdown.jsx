@@ -4,6 +4,7 @@ import { Loader2 } from 'lucide-react';
 export default function CostBreakdown({ stops, countries, budgetLevel, month, exchangeRate }) {
   const [flightPrices, setFlightPrices] = useState({});
   const [loading, setLoading] = useState(false);
+  const [apiError, setApiError] = useState(null);
 
   // Sadece dolu durakları filtrele
   const validStops = stops.filter(s => s.countryId);
@@ -24,9 +25,13 @@ export default function CostBreakdown({ stops, countries, budgetLevel, month, ex
         const data = await res.json();
         if (data.success) {
           setFlightPrices(data.prices);
+          setApiError(null);
+        } else {
+          setApiError(data.error);
         }
       } catch (err) {
         console.error("Uçuş fiyatları alınamadı", err);
+        setApiError("Ağ veya sunucu hatası oluştu.");
       } finally {
         setLoading(false);
       }
@@ -159,6 +164,12 @@ export default function CostBreakdown({ stops, countries, budgetLevel, month, ex
             <p className="text-sm text-danger mt-4">
               * Bazı ülkelerin güncel {budgetLevel} bütçe verisi eksik olabilir.
             </p>
+          )}
+
+          {apiError && (
+            <div className="mt-4 p-3 rounded" style={{ backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid var(--danger-color)', color: 'var(--danger-color)' }}>
+              <strong>API Hatası:</strong> {apiError}
+            </div>
           )}
         </div>
       )}

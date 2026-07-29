@@ -21,8 +21,8 @@ export default function CalculatorPage() {
     fetch('/api/exchange-rate')
       .then(res => res.json())
       .then(data => {
-        if (data.success && data.rates?.TRY) {
-          setExchangeRate(data.rates.TRY);
+        if (data.success && data.rate) {
+          setExchangeRate(data.rate);
         }
       })
       .catch(err => console.error("Kur alınamadı", err));

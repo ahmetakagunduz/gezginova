@@ -1,30 +1,27 @@
 import { NextResponse } from 'next/server';
-import { flightPrices } from '../../../src/data/flightPrices';
 
-/**
- * Mevsimsellik Çarpanı (Seasonality Multiplier)
- * Aylar (1-12) arasında. Kuzey yarımküre yazın (Temmuz-Ağustos) en pahalıdır.
- * Kışın (Ocak-Şubat) genelde daha ucuzdur.
- */
-const getSeasonalityMultiplier = (month) => {
-    switch(parseInt(month)) {
-        case 1: case 2: return 0.85; // Low season (except ski)
-        case 3: case 4: return 0.95; // Spring shoulder
-        case 5: return 1.0; // Early summer
-        case 6: return 1.15; // Summer start
-        case 7: case 8: return 1.4; // Peak Summer
-        case 9: return 1.05; // Late summer
-        case 10: case 11: return 0.9; // Autumn shoulder
-        case 12: return 1.2; // Holiday season peak
-        default: return 1.0;
-    }
+// Ülke kodlarını ana havalimanı IATA kodlarına eşleyen yardımcı bir tablo
+const COUNTRY_TO_AIRPORT = {
+  // Avrupa
+  HU: 'BUD', AT: 'VIE', FR: 'CDG', DE: 'FRA', IT: 'FCO', ES: 'MAD',
+  GB: 'LHR', NL: 'AMS', TR: 'IST', GR: 'ATH', PT: 'LIS', BE: 'BRU',
+  CH: 'ZRH', CZ: 'PRG', PL: 'WAW', SE: 'ARN', NO: 'OSL', DK: 'CPH',
+  FI: 'HEL', IE: 'DUB', RO: 'OTP', BG: 'SOF', RS: 'BEG', HR: 'ZAG',
+  
+  // Asya
+  JP: 'NRT', KR: 'ICN', CN: 'PEK', TH: 'BKK', ID: 'CGK', MY: 'KUL',
+  SG: 'SIN', VN: 'SGN', PH: 'MNL', IN: 'DEL', AE: 'DXB', QA: 'DOH',
+  
+  // Amerika
+  US: 'JFK', CA: 'YYZ', BR: 'GRU', AR: 'EZE', MX: 'MEX', CO: 'BOG',
+  CL: 'SCL', PE: 'LIM',
+  
+  // Afrika
+  ZA: 'JNB', EG: 'CAI', MA: 'CMN', KE: 'NBO', NG: 'LOS',
+
+  // Diğer (Geri kalanlar için genel bir fallback kullanılacak)
 };
 
-/**
- * Canlı Bilet Fiyatı Simülasyonu
- * İleride Amadeus, Skyscanner, Kiwi API'leri ile değiştirilecektir.
- * Şu an için mesafeye ve mevsime dayalı gerçekçi bir fiyat (USD) döner.
- */
 export async function POST(request) {
     try {
         const body = await request.json();
@@ -34,47 +31,65 @@ export async function POST(request) {
             return NextResponse.json({ error: "Gidilecek ülkeler (destinations) dizisi gerekli." }, { status: 400 });
         }
 
-        const seasonMultiplier = getSeasonalityMultiplier(month);
-        const level = budgetLevel === "local" ? "mid" : "high"; // local(mid) vs gezgin(high)
-        
-        const cityPrices = flightPrices[departure] || flightPrices['IST'];
-        
-        const results = {};
-        
-        for (const dest of destinations) {
-            let basePrice = 400; // Varsayılan fiyat
-            if (cityPrices[dest]) {
-                basePrice = cityPrices[dest][level] || cityPrices[dest].mid;
-            } else if (flightPrices['IST'][dest]) {
-                const markup = departure === 'IST' ? 1 : 1.12;
-                basePrice = Math.round(flightPrices['IST'][dest][level] * markup);
-            } else {
-                // Bilinmeyen ülke tahmini
-                basePrice = level === 'mid' ? 600 : 900;
-            }
-            
-            // Dinamik mevsimsellik ve ufak randomize ekleme (+/- 5%)
-            const randomFactor = 0.95 + (Math.random() * 0.1);
-            let finalPrice = Math.round(basePrice * seasonMultiplier * randomFactor);
-            
-            // Her halükarda uçuş fiyatı 100 USD'den az olamaz (vergiler vs)
-            if (finalPrice < 100) finalPrice = 100;
-            
-            results[dest] = finalPrice;
+        const apiKey = process.env.SERPAPI_KEY;
+        if (!apiKey) {
+            // Hata mesajını frontend'in anlayabileceği şekilde dönüyoruz.
+            return NextResponse.json({ 
+                success: false, 
+                error: "SERPAPI_KEY bulunamadı. Lütfen .env.local dosyasına API anahtarınızı ekleyin." 
+            });
         }
 
-        // Mock network delay (0.5s - 1.5s)
-        await new Promise(r => setTimeout(r, 500 + Math.random() * 1000));
+        const results = {};
+        
+        // Bu yılki veya önümüzdeki yılki seçilen ay için yaklaşık bir tarih (ay'ın 15'i)
+        const currentYear = new Date().getFullYear();
+        const currentMonth = new Date().getMonth() + 1;
+        const targetYear = parseInt(month) < currentMonth ? currentYear + 1 : currentYear;
+        const outBoundDate = `${targetYear}-${String(month).padStart(2, '0')}-15`;
+
+        for (const destCountry of destinations) {
+            const arrivalCode = COUNTRY_TO_AIRPORT[destCountry] || destCountry; // Bulamazsa ülke kodunu yollamayı dener
+
+            // SerpApi - Google Flights API İsteği
+            // out_date ve return_date zorunludur. (Gidiş-dönüş fiyatı çekiyoruz)
+            const params = new URLSearchParams({
+              engine: 'google_flights',
+              departure_id: departure,
+              arrival_id: arrivalCode,
+              outbound_date: outBoundDate,
+              return_date: `${targetYear}-${String(month).padStart(2, '0')}-22`, // 7 gün sonrası
+              currency: 'USD',
+              hl: 'tr',
+              api_key: apiKey
+            });
+
+            try {
+              const res = await fetch(`https://serpapi.com/search.json?${params.toString()}`);
+              const data = await res.json();
+
+              if (data.best_flights && data.best_flights.length > 0) {
+                // En iyi (genelde en ucuz) uçuşun fiyatı
+                results[destCountry] = data.best_flights[0].price;
+              } else if (data.other_flights && data.other_flights.length > 0) {
+                results[destCountry] = data.other_flights[0].price;
+              } else {
+                // Uçuş bulunamadıysa tahmini 500 USD döner
+                results[destCountry] = 500;
+              }
+            } catch (err) {
+              console.error(`SerpApi fetch hatası (${destCountry}):`, err);
+              results[destCountry] = 500;
+            }
+        }
 
         return NextResponse.json({
             success: true,
-            month: parseInt(month),
-            seasonMultiplier,
             prices: results
         });
         
     } catch (error) {
         console.error("Flight API Error:", error);
-        return NextResponse.json({ error: "Sunucu hatası" }, { status: 500 });
+        return NextResponse.json({ success: false, error: "Sunucu hatası" }, { status: 500 });
     }
 }

@@ -1,4 +1,4 @@
-import CalculatorPage from '@/views/CalculatorPage';
+import CalculatorPage from '../../src/views/CalculatorPage';
 
 export const metadata = {
   title: 'GezgiNova | Maliyet Hesaplayıcı',
